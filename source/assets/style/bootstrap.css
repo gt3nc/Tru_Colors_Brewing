@@ -6955,7 +6955,7 @@ button.close {
 /*
 *   PAGE | FEATURES
 */
-.page-about {
+.page-careers {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
@@ -6963,18 +6963,18 @@ button.close {
   -o-background-size: cover;
   background-size: cover;
 }
-.page-about .container {
+.page-careers .container {
   position: relative;
   z-index: 2;
 }
-.page-about #quote-slider {
+.page-careers #quote-slider {
   margin-bottom: 35px;
   position: relative;
 }
-.page-about #quote-slider .carousel-indicators {
+.page-careers #quote-slider .carousel-indicators {
   bottom: -25px;
 }
-.page-about #quote-slider .carousel-indicators li {
+.page-careers #quote-slider .carousel-indicators li {
   margin: 0 10px 0 0;
   text-indent: -999px;
   background-color: #ccc;
@@ -6989,10 +6989,10 @@ button.close {
   float: none;
   display: inline-block;
 }
-.page-about #quote-slider .carousel-indicators .active {
+.page-careers #quote-slider .carousel-indicators .active {
   background-color: #fff;
 }
-.page-about .quote {
+.page-careers .quote {
   background: url(../images/css/divider_q.png) no-repeat 50% 0;
   margin-top: 100px;
   padding-top: 50px;
@@ -8260,10 +8260,10 @@ blockquote:before {
     -o-transition: none;
     transition: none;
   }
-  #page-about {
+  #page-careers {
     background-repeat: repeat;
   }
-  #page-about article .col-md-4 img {
+  #page-careers article .col-md-4 img {
     margin-top: 20px;
   }
   #page-contact .col-md-12 {

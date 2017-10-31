@@ -29,17 +29,25 @@ $(document).ready(function(){
         }, 'slow')
     })
 
+    $(".about-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-about").offset().top
+        }, 'slow')
+    })
+
+    $(".careers-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-careers").offset().top
+        }, 'slow')
+    })
+
     $(".team-menu").click(function() {
         $('html,body').animate({
             scrollTop: $(".page-team").offset().top
         }, 'slow')
     })
     
-    $(".about-menu").click(function() {
-        $('html,body').animate({
-            scrollTop: $(".page-about").offset().top
-        }, 'slow')
-    })
+    
 
     $(".contact-menu").click(function() {
         $('html,body').animate({
