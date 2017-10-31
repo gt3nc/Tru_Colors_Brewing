@@ -6736,7 +6736,7 @@ button.close {
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
+  background: #292929 url(../images/tru_colors_main_background_min.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6824,9 +6824,13 @@ button.close {
 .page-welcome .centralized {
   z-index: 2;
 }
-/**   PAGE | WORK*/
+/*
+*   PAGE | WORK
+*/
 .portfolio-items {
-  /*    * Filtering configuration    */
+  /*
+    * Filtering configuration
+    */
 }
 .portfolio-items a {
   position: relative;
@@ -6948,7 +6952,9 @@ button.close {
 .portfolio-item-details .submenu span:hover {
   text-decoration: none;
 }
-/**   PAGE | FEATURES*/
+/*
+*   PAGE | FEATURES
+*/
 .page-features {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
@@ -7340,7 +7346,9 @@ button.close {
 .page-contact form .media {
   padding-top: 24px;
 }
-/**   PAGE | CLIENTS*/
+/*
+*   PAGE | CLIENTS
+*/
 .page-clients .row {
   padding-bottom: 40px;
   padding-top: 15px;
@@ -7443,7 +7451,9 @@ button.close {
 #navigation .mobile-menu:hover .icon-bar {
   background-color: #4e808e;
 }
-/**   FOOTER*/
+/*
+*   FOOTER
+*/
 .pages footer {
   padding-top: 30px;
   padding-bottom: 60px;
