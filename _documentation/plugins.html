@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Treble theme">
+    <title>Treble Documentation</title>
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+
+
+    <!-- TREBLE STYLESHEETS -->
+    <link rel="stylesheet" href="assets/style/bootstrap.css" type="text/css" media="all" />
+    
+    <!-- TREBLE DOCUMENTATION -->
+    <link href="assets/style/docs.css" rel="stylesheet">
+    <link href="assets/style/prettify.css" rel="stylesheet">
+    
+    <!-- GOOGLE WEB FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="fixed-top fixed-visable" id="navigation">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 center">
+                    <!-- LOGO -->
+                    <a class="brand pull-left" href="./">
+                        <img src="assets/images/logo.png" alt="Treble">
+                    </a>
+                    <!-- END LOGO -->
+
+                    <!-- MOBILE MENU BUTTON -->
+                    <div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <!-- END MOBILE MENU BUTTON -->
+                    
+                    <!-- MAIN MENU -->
+                    <ul id="main-menu" class="nav-collapse collapse">
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="scaffolding.html">Scaffolding</a></li>
+                        <li><a href="base_css.html">Base CSS</a></li>
+                        <li><a href="components.html">Components</a></li>
+                        <li><a href="plugins.html">Plugins</a></li>
+                        <li><a href="licences.html">Licences</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                    <!-- END MAIN MENU -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVIGATION -->
+    
+    <header class="jumbotron subhead" id="overview">
+      <div class="container">
+        <h1>JavaScript Plugins</h1>
+        <p class="lead">Showcase of javascript plugins.</p>
+      </div>
+    </header>
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav justFix">
+          <li class="nav-header">Treble</li>
+          <li><a href="#BxSlider"><i class="icon-chevron-right"></i> Bx slider</a></li>
+          <li><a href="#HashLoader"><i class="icon-chevron-right"></i> HashLoader</a></li>
+          <li><a href="#MixItUp"><i class="icon-chevron-right"></i> MixItUp</a></li>
+          <li><a href="#onePageNav"><i class="icon-chevron-right"></i> One Page Nav</a></li>
+          <li><a href="#parallax"><i class="icon-chevron-right"></i> Parallax</a></li>
+          <li><a href="#responsiveVideos"><i class="icon-chevron-right"></i> Responsive videos</a></li>
+          <li><a href="#ScrollTo"><i class="icon-chevron-right"></i> ScrollTo</a></li>
+          <li><a href="#Tweet"><i class="icon-chevron-right"></i> Tweet</a></li>
+          <li><a href="#tweetCarousel"><i class="icon-chevron-right"></i> Tweet Carousel</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+
+        <!-- Treble Bx slider
+        ================================================== -->
+        <section id="BxSlider">
+          <div class="page-header">
+            <h1>Bx slider</h1>
+          </div>
+          <p>Treble uses BxSlider for first page <code>page-welcome</code> H1 taglines.</p>
+          <p>This plugin can be used as:</p>
+            <ul>
+                <li>Fully responsive - will adapt to any device</li>
+                <li>Horizontal, vertical, and fade modes</li>
+                <li>Slides can contain images, video, or HTML content</li>
+                <li>Advanced touch / swipe support built-in</li>
+                <li>Uses CSS transitions for slide animation (native hardware acceleration!)</li>
+                <li>Full callback API and public methods</li>
+                <li>Small file size, fully themed, simple to implement</li>
+                <li>Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+</li>
+                <li>Tons of configuration <a href="/options">options</a></li>
+              </ul>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.bxslider.min.js</strong> is requred.</p>
+            <p>More information can be found at <a href="http://bxslider.com/">http://bxslider.com/</a> and <a href="https://github.com/wandoledzep/bxslider-4">github</a></p>
+        </section>
+        
+        
+        <!-- Treble HashLoader
+        ================================================== -->
+        <section id="HashLoader">
+          <div class="page-header">
+            <h1>HashLoader</h1>
+          </div>
+          <p>HashLoader will give you power to load pages using ajax requests.</p>
+          <p>Using hashLoader uses code>data</code> attributes to findout which URL should be loaded and where to add content. You can also define action how to load and what to do after loading is finished.</p>
+<pre class="prettyprint linenums">
+&lt;a href=&quot;#pages/portfolio/project_1.html&quot; data-destination=&quot;portfolio-items&quot; data-insert=&quot;before&quot; data-action=&quot;hide&quot;&gt;Load my page&lt;/a&gt;
+</pre>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                    <th style="width: 150px;">Data</th>
+                    <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>href</td>
+                        <td>URL of page you want to load. Relatve path, but could also be absolute.</td>
+                    </tr>
+                    <tr>
+                        <td>data-destination</td>
+                        <td>
+                            <p><code>data-destination</code> will be container where you want to load page. In combination with <code>data-insert</code> this doesnt have to be empty <code>div</code>.</p>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>data-insert</td>
+                        <td>
+                            <p><code>data-insert</code> will be the way you want to load new content. There are several ways to do this:</p>
+                            <ul>
+                                <li><code>append</code> - This is default action, it will append content indside <strong>data-destination</strong>.</li>
+                                <li><code>before</code> - Will add content before <strong>data-destination</strong>.</li>
+                                <li><code>after</code> - Will add content after <strong>data-destination</strong>.</li>
+                                <li><code>prependTo</code> - Will add content inside of <strong>data-destination</strong> but at the top.</li>
+                                <li><code>appendTo</code> - Will add content inside of <strong>data-destination</strong> but at the bottom.</li>
+                                <li><code>html</code> - Will replace content of <strong>data-destination</strong>.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>data-action</td>
+                        <td>
+                            <p><code>data-action</code> will give you option to remove or hide link for loading ajax page. There are several ways to do this:</p>
+                            <ul>
+                                <li><code>remove</code> - This is default action, it will append content indside <strong>data-destination</strong>.</li>
+                                <li><code>hide</code> - Will add content before <strong>data-destination</strong>.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          
+          
+           
+            
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.hashloader.js</strong> is requred.</p>
+        </section>
+        
+
+
+        <!-- Treble MixItUp
+        ================================================== -->
+        <section id="MixItUp">
+          <div class="page-header">
+            <h1>Mix It Up</h1>
+          </div>
+          <p>MixItUp is a <strong>light-weight but powerful</strong> jQuery plugin that provides beautiful animated filtering and sorting of categorized and ordered content. It plays nice with your existing HTML and CSS, making it a great choice for <strong>fluid</strong>, <strong>responsive</strong> layouts. It's perfect for portfolios, galleries, blogs, or any categorized or ordered content! <a class="scroller" href="http://mixitup.io/#Demos">Check out demos for some inspiration »</a></p>
+            <p>Treble uses MixItUp for <strong>portfolio items</strong> on <code>page-work</code>.</p>
+<pre class="prettyprint linenums">
+  $('.plugin-filter-elements').mixitup({
+        targetSelector: '.mix',
+        filterSelector: '.plugin-filter',
+        sortSelector: '.sort',
+        buttonEvent: 'click',
+        effects: ['fade','rotateY'],
+        listEffects: null,
+        easing: 'smooth',
+        layoutMode: 'grid',
+        targetDisplayGrid: 'inline-block',
+        targetDisplayList: 'block',
+        gridClass: '',
+        listClass: '',
+        transitionSpeed: 600,
+        showOnLoad: 'all',
+        sortOnLoad: false,
+        multiFilter: false,
+        filterLogic: 'or',
+        resizeContainer: true,
+        minHeight: 0,
+        failClass: 'fail',
+        perspectiveDistance: '3000',
+        perspectiveOrigin: '50% 50%',
+        animateGridList: true,
+        onMixLoad: null,
+        onMixStart: null,
+        onMixEnd: null
+    });
+</pre>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.mixitup.min.js</strong> is requred.</p>
+            <p>More information can be found at <a href="http://mixitup.io/">http://mixitup.io/</a> and <a href="https://github.com/barrel/mixitup">github</a></p>
+        </section>
+        
+
+        <!-- Treble One Page Nav Plugin
+        ================================================== -->
+        <section id="onePageNav">
+          <div class="page-header">
+            <h1>One Page Nav</h1>
+          </div>
+          <p>A lightweight jQuery plugin for the navigation on one-page sites. Uses the ScrollTo Plugin plugin to add smooth scrolling when clicking on the navigation. Also adds a class to the correct navigation items as you are scrolling through the different sections.</p>
+          <p>Treble uses this plugin for <code>#main-menu</code> navigation.</p>
+<pre class="prettyprint linenums">
+    $('#main-menu').onePageNav({
+        currentClass: 'active',
+        changeHash: false,
+        scrollOffset: navigationHeight - 10,
+        scrollThreshold: 0.5,
+        scrollSpeed: 750,
+        filter: '',
+        easing: 'swing',
+     });
+</pre>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.nav.min.js</strong> is requred.</p>
+            <p>More information can be found at <a href="https://github.com/davist11/jQuery-One-Page-Nav">github</a></p>
+        </section>
+        
+
+        <!-- Treble One Page Nav Plugin
+        ================================================== -->
+        <section id="parallax">
+          <div class="page-header">
+            <h1>Parallax</h1>
+          </div>
+          <p>Parallax is, parallax, it uses CSS background and create parallax effect on user scroll.</p>
+          <p>Treble uses this plugin for <code>#page-welcome</code>, <code>#page-features</code> and <code>#page-twitter</code>.</p>
+<pre class="prettyprint linenums">
+        $('#page-welcome').parallax("0%", 0.2);
+        $('#page-features').parallax("0%", 0.07);
+        $('#page-twitter').parallax("0%", 0.1);
+</pre>
+            <p>Just add CSS bacground and adapt JS configuration to your needs.</p>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.parallax-1.1.3.js</strong> is requred.</p>
+            <p>Treble has <strong>disabled parallax</strong> for devices which have width size less then <code>980px</code>.</p>
+<pre class="prettyprint linenums">
+        if(pageWidth > 980){
+            $('#page-welcome').parallax("0%", 0.2);
+            $('#page-features').parallax("0%", 0.07);
+            $('#page-twitter').parallax("0%", 0.1);
+        }
+</pre>
+            <p>This configuration can be found at <strong>/assets/js/plugins/application.js</strong>.</p>
+            <p>More information can be found at <a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">this location.</a></p>
+        </section>
+        
+
+        <!-- Treble Responsive Videos
+        ================================================== -->
+        <section id="responsiveVideos">
+          <div class="page-header">
+            <h1>Responsive Videos</h1>
+          </div>
+          <p>Treble uses responsive videos plugin to adjust size of videos. This is especially useful when loading <strong> portfolio items</strong> which contain <strong>video embeded</strong>.</p>
+          <p>You will need to initialize this plugin.</p>
+<pre class="prettyprint linenums">
+$.fn.responsivevideos();
+</pre>
+           <p>Responsive video will work with:</p> 
+           <ul>
+                <li><strong>Youtube</strong></li>
+                <li><strong>Vimeo</strong></li>
+           </ul>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.responsivevideos.min</strong> is requred.</p>
+        </section>
+        
+        
+        <!-- Treble ScrollTo
+        ================================================== -->
+        <section id="ScrollTo">
+          <div class="page-header">
+            <h1>ScrollTo</h1>
+          </div>
+          <p>Treble uses ScrollTo plugin to have smooth scroll when user clicks on <code>#main-menu</code> navigation links.</p>
+          <p>You dont need to initialize  this plugin. This plugin has dependency with plugin <strong><a href="#onePageNav">One Page Nav</a></strong> plugin.</p>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.scrollTo.js</strong> is requred.</p>
+            <p>More information can be found at <a href="http://flesler.blogspot.com/">this location.</a></p>
+        </section>
+        
+        
+        <!-- Treble Tweet
+        ================================================== -->
+        <section id="Tweet">
+          <div class="page-header">
+            <h1>Tweet</h1>
+          </div>
+          <p>Treble uses Tweet to display latest Tweets. This plugins uses <code>JS</code> but since Twitter changed API from 2013-06-11, this plugin is requiring also <code>PHP</code>.</p>
+          <p>This plugin is modified by Stan Scates for <a href="https://github.com/StanScates/Tweet.js-Mod">https://github.com/StanScates/Tweet.js-Mod</a>.</p>
+          <p>This is how it works from JS side:</p>
+<pre class="prettyprint linenums">
+    $('.twitterfeed').tweet({
+        modpath: 'plugins/twitter/',
+        username: 'TheGridelicious',
+        count: 3
+    });
+</pre>
+          <p>Configuration for Tweeter AIP is in <strong>\plugins\twitter\index.php</strong>, where you will need to enter:</p>
+          <ul>
+            <li>Your Twitter App Consumer Key</li>
+            <li>Your Twitter App Consumer Secret</li>
+            <li>Your Twitter App Access Token</li>
+            <li>Your Twitter App Access Token Secret</li>
+          </ul>
+          <p>As stated in "<a href="https://github.com/StanScates/Tweet.js-Mod">How to use</a>" for this plugins, yous should first get your Twitter App access.</p>
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.tweet.min.js</strong> is requred.</p>
+            <p>More information can be found at <a href="https://github.com/StanScates/Tweet.js-Mod">this location.</a></p>
+        </section>
+
+        
+        <!-- Treble TweetCarousel
+        ================================================== -->
+        <section id="tweetCarousel">
+          <div class="page-header">
+            <h1>Tweet Carousel</h1>
+          </div>
+          <p>This pulgin will help you to setup Carousel from Twitter bootstrap in combination with Tweet to display latest Tweets.</p>
+          <p>Plugin will create HTML markup based on numbers of Tweet's visible.</p>
+          <p>This is how it works from JS side:</p>
+<pre class="prettyprint linenums">
+    $('#twitterfeed-slider').tweetCarousel({
+        interval: 7000,
+        pause: "hover"
+    });
+</pre>
+         
+            <p><span class="label label-info">Heads up!</span> JavaScript <strong>/assets/js/plugins/jquery.tweetCarousel.min.js</strong> is requred.</p>
+        </section>
+        
+        
+        
+      </div>
+    </div>
+
+  </div>
+<footer class="footer">
+      <div class="container">
+        <p>Treble <small>HTML</small> is part of <a href="http://www.gridelicious.com">Gridelicious theme's</a>.</p>
+        <p>Created in collaboration between <a href="http://www.mindburger.net">Mindburger</a> and <a href="http://www.rewea.com">Rewea</a></p>
+        
+      </div>
+</footer>
+    
+    <!-- LOAD JS FILES -->
+    
+    <!-- Jquery -->
+    <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    
+    <!-- Less and Twitter Bootstrap -->
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            
+    
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+    
+    
+    <script src="assets/js/prettify.js" type="text/javascript"></script>
+    <script src="assets/js/application.js" type="text/javascript"></script>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44061294-1', 'gridelicious.net');
+        ga('send', 'pageview');
+    </script>
+    
+</body>
+</html>
