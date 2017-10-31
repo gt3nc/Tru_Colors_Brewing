@@ -19,9 +19,34 @@ $(document).ready(function(){
     *   ON LOAD
     */
 
-    /* Initialize scroll so if user droped to other part of page then home page. */
+    /* Initialize scroll so if user dropped to other part of page then home page. */
     $(window).trigger('scroll');
+
+    // menu scroll button functions
+    $(".home-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-welcome").offset().top
+        }, 'slow')
+    })
+
+    $(".team-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-team").offset().top
+        }, 'slow')
+    })
     
+    $(".about-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-about").offset().top
+        }, 'slow')
+    })
+
+    $(".contact-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-contact").offset().top
+        }, 'slow')
+    })
+
     /* Fix navigation. */
     $('#navigation').fixedonlater({
         speedDown: 250,

@@ -6741,7 +6741,6 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*filter: grayscale(1);*/
   /* Social icons box */
 }
 .page-welcome .logo {
@@ -6956,7 +6955,7 @@ button.close {
 /*
 *   PAGE | FEATURES
 */
-.page-features {
+.page-about {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
@@ -6964,18 +6963,18 @@ button.close {
   -o-background-size: cover;
   background-size: cover;
 }
-.page-features .container {
+.page-about .container {
   position: relative;
   z-index: 2;
 }
-.page-features #quote-slider {
+.page-about #quote-slider {
   margin-bottom: 35px;
   position: relative;
 }
-.page-features #quote-slider .carousel-indicators {
+.page-about #quote-slider .carousel-indicators {
   bottom: -25px;
 }
-.page-features #quote-slider .carousel-indicators li {
+.page-about #quote-slider .carousel-indicators li {
   margin: 0 10px 0 0;
   text-indent: -999px;
   background-color: #ccc;
@@ -6990,10 +6989,10 @@ button.close {
   float: none;
   display: inline-block;
 }
-.page-features #quote-slider .carousel-indicators .active {
+.page-about #quote-slider .carousel-indicators .active {
   background-color: #fff;
 }
-.page-features .quote {
+.page-about .quote {
   background: url(../images/css/divider_q.png) no-repeat 50% 0;
   margin-top: 100px;
   padding-top: 50px;
@@ -7001,13 +7000,13 @@ button.close {
 /*
 *   PAGE | ABOUT
 */
-.page-about .about-items .item {
+.page-team .about-items .item {
   position: relative;
   display: inline-block;
   color: #fff;
   overflow: hidden;
 }
-.page-about .about-items .item:hover .about-overlay {
+.page-team .about-items .item:hover .about-overlay {
   opacity: 95;
   filter: alpha(opacity=9500);
   left: 0;
@@ -7016,7 +7015,7 @@ button.close {
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-.page-about .about-items .about-overlay {
+.page-team .about-items .about-overlay {
   width: 100%;
   height: 100%;
   top: 0;
@@ -7031,7 +7030,7 @@ button.close {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.page-about .about-items .about-overlay .social-icons {
+.page-team .about-items .about-overlay .social-icons {
   left: 50%;
   margin-left: -85px;
   margin-top: -15px;
@@ -7041,10 +7040,10 @@ button.close {
   width: 170px;
   z-index: 6;
 }
-.page-about .about-items .about-overlay .social-icons a {
+.page-team .about-items .about-overlay .social-icons a {
   padding: 4px;
 }
-.page-about .about-items .about-overlay .social-icons i {
+.page-team .about-items .about-overlay .social-icons i {
   display: inline-block;
 }
 /*
@@ -8043,7 +8042,7 @@ blockquote:before {
   #navigation .social-icons {
     display: none;
   }
-  #page-about .about-items .item {
+  #page-team .about-items .item {
     display: block;
   }
   #page-twitter .twitterfeed {
@@ -8224,7 +8223,7 @@ blockquote:before {
     -o-transition: none;
     transition: none;
   }
-  #page-about .about-items .item {
+  #page-team .about-items .item {
     display: block;
   }
   #page-twitter .twitterfeed {
@@ -8253,18 +8252,18 @@ blockquote:before {
   .portfolio-items > li img {
     width: 100%;
   }
-  #page-about .about-items .item {
+  #page-team .about-items .item {
     display: inline-block;
   }
-  #page-about .about-items .item .about-overlay {
+  #page-team .about-items .item .about-overlay {
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
   }
-  #page-features {
+  #page-about {
     background-repeat: repeat;
   }
-  #page-features article .col-md-4 img {
+  #page-about article .col-md-4 img {
     margin-top: 20px;
   }
   #page-contact .col-md-12 {
