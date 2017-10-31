@@ -6736,12 +6736,12 @@ button.close {
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(../images/tru_colors_main_background_min.jpg) 50% 0 repeat fixed;
+  background: #292929 url(../images/tru_colors_main_background_min_grey.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: grayscale(1);
+  /*filter: grayscale(1);*/
   /* Social icons box */
 }
 .page-welcome .logo {
