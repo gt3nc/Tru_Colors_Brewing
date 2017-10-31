@@ -6741,7 +6741,6 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-filter: grayscale(1); /* Old WebKit */
   filter: grayscale(1);
   /* Social icons box */
 }
