@@ -7915,6 +7915,7 @@ body {
 .smallFontBy08 {
   font-size: 0.8em;
   line-height: 22.5px;
+  letter-spacing: .75px;
 }
 .cutBy10 {
   margin: 0px 10%;
