@@ -7118,6 +7118,27 @@ button.close {
 .page-careers .twitterfeed .carousel-indicators .active {
   background-color: #fff;
 }
+.submit-button {
+  margin-bottom: 5rem;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  text-shadow: 0 1px 1px #211037;
+  background: #2c1549;
+  border-radius: 4px;
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-weight: 400;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
 /*
 *   PAGE | BLOG
 */
@@ -7351,7 +7372,7 @@ button.close {
 /*
 *   PAGE | CLIENTS
 */
-.page-articles .row {
+.page-clients .row {
   padding-bottom: 40px;
   padding-top: 15px;
 }
