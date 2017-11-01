@@ -7118,6 +7118,9 @@ button.close {
 .page-careers .twitterfeed .carousel-indicators .active {
   background-color: #fff;
 }
+label {
+  letter-spacing: .75px;
+}
 .submit-button {
   margin-bottom: 5rem;
   font-size: 16px;
