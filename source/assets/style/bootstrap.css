@@ -6963,6 +6963,9 @@ button.close {
   -o-background-size: cover;
   background-size: cover;
 }
+.page-careers img {
+  border-radius: 50%;
+}
 .page-careers .container {
   position: relative;
   z-index: 2;
