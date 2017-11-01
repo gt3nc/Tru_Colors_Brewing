@@ -35,9 +35,9 @@ $(document).ready(function(){
         }, 'slow')
     })
 
-    $(".careers-menu").click(function() {
+    $(".help-menu").click(function() {
         $('html,body').animate({
-            scrollTop: $(".page-careers").offset().top
+            scrollTop: $(".page-help").offset().top
         }, 'slow')
     })
 
@@ -47,7 +47,11 @@ $(document).ready(function(){
         }, 'slow')
     })
     
-    
+    $(".join-menu").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".page-careers").offset().top
+        }, 'slow')
+    })
 
     $(".contact-menu").click(function() {
         $('html,body').animate({

@@ -6955,7 +6955,7 @@ button.close {
 /*
 *   PAGE | FEATURES
 */
-.page-careers {
+.page-help {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
@@ -6963,21 +6963,21 @@ button.close {
   -o-background-size: cover;
   background-size: cover;
 }
-.page-careers img {
+.page-help img {
   border-radius: 50%;
 }
-.page-careers .container {
+.page-help .container {
   position: relative;
   z-index: 2;
 }
-.page-careers #quote-slider {
+.page-help #quote-slider {
   margin-bottom: 35px;
   position: relative;
 }
-.page-careers #quote-slider .carousel-indicators {
+.page-help #quote-slider .carousel-indicators {
   bottom: -25px;
 }
-.page-careers #quote-slider .carousel-indicators li {
+.page-help #quote-slider .carousel-indicators li {
   margin: 0 10px 0 0;
   text-indent: -999px;
   background-color: #ccc;
@@ -6992,10 +6992,10 @@ button.close {
   float: none;
   display: inline-block;
 }
-.page-careers #quote-slider .carousel-indicators .active {
+.page-help #quote-slider .carousel-indicators .active {
   background-color: #fff;
 }
-.page-careers .quote {
+.page-help .quote {
   background: url(../images/css/divider_q.png) no-repeat 50% 0;
   margin-top: 100px;
   padding-top: 50px;
@@ -7052,55 +7052,54 @@ button.close {
 /*
 *   PAGE | TWITTER
 */
-.page-twitter {
+.page-careers {
   position: relative;
   background: url(../images/pages/twitter/tw_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 30px;
   padding-bottom: 130px;
 }
-.page-twitter .container {
+.page-careers .container {
   z-index: 2;
   position: relative;
 }
-.page-twitter .twitter-devider {
+.page-careers .twitter-devider {
   background: url(../images/css/divider_tw.png) no-repeat center bottom;
   padding-bottom: 60px;
 }
-.page-twitter .twitterfeed {
+.page-careers .twitterfeed {
   min-height: 55px;
   padding-top: 20px;
   position: relative;
 }
-.page-twitter .twitterfeed .tweet_time {
+.page-careers .twitterfeed .tweet_time {
   display: none;
 }
-.page-twitter .twitterfeed .tweet_time a {
+.page-careers .twitterfeed .tweet_time a {
   font-size: 11px;
   color: #ffffff;
   display: block;
 }
-.page-twitter .twitterfeed .tweet_text a:hover {
+.page-careers .twitterfeed .tweet_text a:hover {
   color: #4e808e;
   text-decoration: underline;
 }
-.page-twitter .twitterfeed .tweet_list {
+.page-careers .twitterfeed .tweet_list {
   padding: 0px;
   margin: 0px;
   list-style: none;
 }
-.page-twitter .twitterfeed .tweet_list li {
+.page-careers .twitterfeed .tweet_list li {
   padding: 0px;
   margin: 0px;
   list-style: none;
 }
-.page-twitter .twitterfeed .carousel-indicators {
+.page-careers .twitterfeed .carousel-indicators {
   bottom: -95px;
 }
-.page-twitter .twitterfeed .carousel-indicators li {
+.page-careers .twitterfeed .carousel-indicators li {
   margin-left: 5px;
   text-indent: -999px;
   background-color: #ccc;
@@ -7116,7 +7115,7 @@ button.close {
   display: inline-block;
   margin: 0 10px 0 0;
 }
-.page-twitter .twitterfeed .carousel-indicators .active {
+.page-careers .twitterfeed .carousel-indicators .active {
   background-color: #fff;
 }
 /*
@@ -8048,7 +8047,7 @@ blockquote:before {
   #page-team .about-items .item {
     display: block;
   }
-  #page-twitter .twitterfeed {
+  #page-careers .twitterfeed {
     min-height: 75px;
   }
   .brand {
@@ -8229,7 +8228,7 @@ blockquote:before {
   #page-team .about-items .item {
     display: block;
   }
-  #page-twitter .twitterfeed {
+  #page-careers .twitterfeed {
     min-height: 75px;
   }
   .overlay {
@@ -8263,10 +8262,10 @@ blockquote:before {
     -o-transition: none;
     transition: none;
   }
-  #page-careers {
+  #page-help {
     background-repeat: repeat;
   }
-  #page-careers article .col-md-4 img {
+  #page-help article .col-md-4 img {
     margin-top: 20px;
   }
   #page-contact .col-md-12 {
