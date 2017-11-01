@@ -7382,6 +7382,9 @@ label {
   padding-bottom: 40px;
   padding-top: 15px;
 }
+.page-articles img:hover {
+  cursor: pointer;
+}
 /*
 *   HEADER
 */
