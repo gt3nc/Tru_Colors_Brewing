@@ -7144,6 +7144,14 @@ label {
   touch-action: manipulation;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+
+  .submit-button {
+    font-size: 14pt;
+    padding: .8rem;
+  }
+
+}
 
 /*
 *   PAGE | BLOG
