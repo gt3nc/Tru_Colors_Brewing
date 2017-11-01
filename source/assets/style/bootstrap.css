@@ -7127,9 +7127,12 @@ button.close {
   text-shadow: 0 1px 1px #211037;
   background: #2c1549;
   border-radius: 4px;
-  padding: 1.5rem;
+  padding: 1.2rem;
   outline: none;
-  border: none;
+  border-top: 1px solid #f27421;
+  border-left: 1px solid #f27421;
+  border-bottom: 1px solid #fcb514;
+  border-right: 1px solid #fcb514;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
