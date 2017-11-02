@@ -166,7 +166,7 @@ a {
 
 h1 {
 	font-size: 76px;
-	font-family: 'ChunkFiveRegular', 'Open Sans', sans-serif;
+	font-family: industry
   	line-height: 81px;
   	letter-spacing: 1px;
 }
@@ -362,7 +362,7 @@ p {
 		display: none !important;
 		float: right;
 	}
-	
+
 	#navigation #main-menu.collapsing, #navigation #main-menu.in {
     display: block !important;
     float: none;
