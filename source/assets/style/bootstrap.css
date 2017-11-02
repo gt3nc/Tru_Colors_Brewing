@@ -8423,10 +8423,10 @@ blockquote:before {
   .portfolio-items > li img {
     width: 100%;
   }
-  /*.centralized {
+  .centralized {
     left: auto;
     float: none;
-  }*/
+  }
   .line-divider,
   .show-more-cube {
     width: auto !important;

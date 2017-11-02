@@ -1,15 +1,16 @@
 @font-face {
-  font-family: 'ChunkFiveRegular';
-  src: url('../css/fonts/Chunkfive-webfont.eot');
-  src: url('../css/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Chunkfive-webfont.woff') format('woff'), url('../css/fonts/Chunkfive-webfont.ttf') format('truetype'), url('../css/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
+	font-family: 'ChunkFiveRegular';
+	src: url('../css/fonts/Chunkfive-webfont.eot');
+	src: url('../css/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Chunkfive-webfont.woff') format('woff'), url('../css/fonts/Chunkfive-webfont.ttf') format('truetype'), url('../css/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
 }
 
 html, body {
 	overflow-x: hidden;
 	width: 100%;
+	
 }
 
 a {
@@ -24,94 +25,94 @@ a {
 *   Icons configuration
 */
 .social-icons {
-  display: table;
+	display: table;
 }
 .social-icons a {
-  display: table-cell;
+	display: table-cell;
 }
 [class^="sicon-"] i,
 [class*=" sicon-"] i {
-  display: block;
-  width: 25px;
-  height: 25px;
-  line-height: 14px;
-  vertical-align: text-top;
-  background-image: url("../images/sicon-set.png");
-  background-repeat: no-repeat;
-  text-indent: -99999px;
-  text-align: center;
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../images/sicon-set.png");
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+	text-align: center;
 }
 .sicon-white i {
-  background-image: url("../images/sicon-set-white.png");
+	background-image: url("../images/sicon-set-white.png");
 }
 .sicon-black i {
-  background-image: url("../images/sicon-set.png");
+	background-image: url("../images/sicon-set.png");
 }
 /*
 *   Social icons configuration
 */
 .sicon-search i {
-  background-position: 3px 0px;
+	background-position: 3px 0px;
 }
 .sicon-place i {
-  background-position: -37px 0px;
+	background-position: -37px 0px;
 }
 .sicon-phone i {
-  background-position: -77px 0px;
+	background-position: -77px 0px;
 }
 .sicon-mail i {
-  background-position: -117px 0px;
+	background-position: -117px 0px;
 }
 .sicon-clock i {
-  background-position: -157px 0px;
+	background-position: -157px 0px;
 }
 .sicon-facebook i {
-  background-position: -197px 0px;
+	background-position: -197px 0px;
 }
 .sicon-twitter i {
-  background-position: -237px -1px;
+	background-position: -237px -1px;
 }
 .sicon-linkedin i {
-  background-position: -277px -1px;
+	background-position: -277px -1px;
 }
 .sicon-youtube i {
-  background-position: -317px -1px;
+	background-position: -317px -1px;
 }
 .sicon-pinterest i {
-  background-position: -356px -1px;
+	background-position: -356px -1px;
 }
 /*
 *   Small social icons with border
 */
 .social-icons.bordered {
-  border-right: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
 }
 .social-icons.bordered a {
-  border: 2px solid #ffffff;
-  border-right: none;
-  padding: 6px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+	border: 2px solid #ffffff;
+	border-right: none;
+	padding: 6px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 .social-icons.bordered a:hover {
-  background-color: #ffffff;
+	background-color: #ffffff;
 }
 .social-icons.bordered a:hover i {
-  background-image: url("../images/sicon-set.png");
+	background-image: url("../images/sicon-set.png");
 }
 .social-icons.bordered-black {
-  border-right: 2px solid #292929;
+	border-right: 2px solid #292929;
 }
 .social-icons.bordered-black a {
-  border: 2px solid #292929;
-  border-right: none;
+	border: 2px solid #292929;
+	border-right: none;
 }
 .social-icons.bordered-black a:hover {
-  background-color: #292929;
+	background-color: #292929;
 }
 .social-icons.bordered-black a:hover i {
-  background-image: url("../images/sicon-set-white.png");
+	background-image: url("../images/sicon-set-white.png");
 }
 /*
 *   Big social icons with hover background
@@ -119,63 +120,86 @@ a {
 */
 .social-icons.hover-big [class^="sicon-"],
 .social-icons.hover-big [class*=" sicon-"] {
-  padding: 9px 8px 8px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+	padding: 9px 8px 8px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 .social-icons.hover-big a i {
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .social-icons.hover-big a:hover i {
-  background-image: url("../images/sicon-set-white.png");
+	background-image: url("../images/sicon-set-white.png");
 }
 .social-icons.hover-big .sicon-facebook:hover {
-  background-color: #3b5998;
+	background-color: #3b5998;
 }
 .social-icons.hover-big .sicon-twitter:hover {
-  background-color: #44CBFF;
+	background-color: #44CBFF;
 }
 .social-icons.hover-big .sicon-linkedin:hover {
-  background-color: #1E79C0;
+	background-color: #1E79C0;
 }
 .social-icons.hover-big .sicon-youtube:hover {
-  background-color: #FF0000;
+	background-color: #FF0000;
 }
 .social-icons.hover-big .sicon-pinterest:hover {
-  background-color: #D90000;
+	background-color: #D90000;
 }
 .social-icons.hover-big .sicon-search:hover {
-  background-color: #000000;
+	background-color: #000000;
 }
 .social-icons.hover-big .sicon-place:hover {
-  background-color: #000000;
+	background-color: #000000;
 }
 .social-icons.hover-big .sicon-phone:hover {
-  background-color: #000000;
+	background-color: #000000;
 }
 .social-icons.hover-big .sicon-mail:hover {
-  background-color: #000000;
+	background-color: #000000;
 }
 .social-icons.hover-big .sicon-clock:hover {
-  background-color: #000000;
+	background-color: #000000;
 }
 
 h1 {
-	font-size: 74pt;
+	font-size: 76px;
 	font-family: 'ChunkFiveRegular', 'Open Sans', sans-serif;
   	line-height: 81px;
   	letter-spacing: 1px;
 }
 
 h4 {
-	font-size: 18pt;
+	font-size: 19px;
 	text-transform: uppercase;
 	font-weight: 800;
 	color: #aaaaaa;
 	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 19px 0;
+	letter-spacing: 1px;
+}
+
+h5 small {
+	letter-spacing: 1px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #bbbbbb;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	line-height: 27px;
+	color: #292929;
+	font-weight: 100;
 }
 
 /* NAV BAR */
@@ -207,7 +231,6 @@ h4 {
     position: relative;
     text-align: center;
     line-height: 18px;
-    font-size: 12pt;
     list-style: none;
 }
 
@@ -215,7 +238,7 @@ h4 {
     display: inline-block;
     position: relative;
     padding: 0px;
-    margin: 0px;
+    margin: 18px 12px;
     line-height: 18px;
     list-style: none;
 }
@@ -228,7 +251,7 @@ h4 {
     line-height: 18px;
     letter-spacing: 1px;
     color: #292929;
-    padding: 12px 15px;
+    padding: 0;
     margin: 0px;
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
@@ -236,12 +259,46 @@ h4 {
     display: block;
 }
 
+#navigation .mobile-menu {
+  display: none;
+  float: right;
+  padding: 7px 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#navigation .mobile-menu .icon-bar {
+  background-color: #292929;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  display: block;
+  height: 3px;
+  width: 26px;
+  margin-bottom: 3px;
+  margin-top: 1px;
+}
+
+#navigation .mobile-menu:hover .icon-bar {
+  background-color: #4e808e;
+}
+
+.line {
+	border-bottom: 1px solid #aaaaaa;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 /* TOP WELCOME SECTION */
 
 .page-welcome {
 	height: 100vh;
+	margin-top: 40px;
 	padding-top: 20vh;
-	background: #292929 url("../images/tru_colors_main_background_min_grey.jpg") 50% 0 repeat fixed;
+	background: #292929;
  	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -255,23 +312,53 @@ h4 {
 }
 
 .divider p {
-	font-weight: 800;
 	letter-spacing: 2px;
-	margin: 0;
+	margin-top: 5rem;
 	text-transform: uppercase;
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18pt;
-	line-height: 27px;
+	font-weight: 800;
 }
 
 .social-icons {
 	margin: 50px auto 0;
 }
 
-/* ABOUT / MISSION SECTION */
-
-.page-help {
+.page-team, .page-about {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
+}
+
+/* ABOUT / MISSION SECTION */
+
+.page-team p {
+	margin-bottom: 5rem;
+}
+
+.thumbnails {
+	list-style: none;
+	margin-left: -15px;
+	padding: 0;
+}
+
+.thumbnails li {
+	margin-bottom: 4rem;
+}
+
+/* ABOUT PAGE */
+
+.page-about p {
+	margin-bottom: 3rem;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 563px) {
+
+	#main-menu li {
+		margin: 10px 10px !important;
+	}
+
+	.divider-image {
+		width: 400px;
+	}
 }
