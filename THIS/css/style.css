@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('../css/fonts/Chunkfive-webfont.eot');
+  src: url('../css/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Chunkfive-webfont.woff') format('woff'), url('../css/fonts/Chunkfive-webfont.ttf') format('truetype'), url('../css/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
 html, body {
 	overflow-x: hidden;
 	width: 100%;
@@ -154,6 +163,79 @@ a {
   background-color: #000000;
 }
 
+h1 {
+	font-size: 74pt;
+	font-family: 'ChunkFiveRegular', 'Open Sans', sans-serif;
+  	line-height: 81px;
+  	letter-spacing: 1px;
+}
+
+h4 {
+	font-size: 18pt;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #aaaaaa;
+	letter-spacing: 1px;
+}
+
+/* NAV BAR */
+
+#navigation {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+    z-index: 2000;
+    width: 100%;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#navigation #main-menu {
+    display: inline-block !important;
+    float: none;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12pt;
+    list-style: none;
+}
+
+#navigation #main-menu li {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    line-height: 18px;
+    list-style: none;
+}
+
+#navigation #main-menu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #292929;
+    padding: 12px 15px;
+    margin: 0px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+    position: relative;
+    display: block;
+}
+
 /* TOP WELCOME SECTION */
 
 .page-welcome {
@@ -164,6 +246,7 @@ a {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	padding-bottom: 10vh;
 }
 
 .divider img {
@@ -184,4 +267,11 @@ a {
 
 .social-icons {
 	margin: 50px auto 0;
+}
+
+/* ABOUT / MISSION SECTION */
+
+.page-help {
+	padding-top: 3rem;
+	padding-bottom: 4rem;
 }
