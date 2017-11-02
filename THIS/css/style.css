@@ -336,7 +336,7 @@ p {
 
 .thumbnails {
 	list-style: none;
-	margin-left: -15px;
+	/*margin-left: -15px;*/
 	padding: 0;
 }
 
@@ -351,6 +351,26 @@ p {
 }
 
 /* RESPONSIVENESS */
+
+@media (max-width: 767px) {
+
+	#navigation .mobile-menu {
+		display: block !important;
+	}
+
+	#navigation #main-menu {
+		display: none !important;
+		float: right;
+	}
+	
+	#navigation #main-menu.collapsing, #navigation #main-menu.in {
+    display: block !important;
+    float: none;
+    width: 100%;
+    overflow: hidden;
+	}
+
+}
 
 @media (max-width: 563px) {
 
