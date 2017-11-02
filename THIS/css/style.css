@@ -1,0 +1,187 @@
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+/*
+*   Icons configuration
+*/
+.social-icons {
+  display: table;
+}
+.social-icons a {
+  display: table-cell;
+}
+[class^="sicon-"] i,
+[class*=" sicon-"] i {
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../images/sicon-set.png");
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  text-align: center;
+}
+.sicon-white i {
+  background-image: url("../images/sicon-set-white.png");
+}
+.sicon-black i {
+  background-image: url("../images/sicon-set.png");
+}
+/*
+*   Social icons configuration
+*/
+.sicon-search i {
+  background-position: 3px 0px;
+}
+.sicon-place i {
+  background-position: -37px 0px;
+}
+.sicon-phone i {
+  background-position: -77px 0px;
+}
+.sicon-mail i {
+  background-position: -117px 0px;
+}
+.sicon-clock i {
+  background-position: -157px 0px;
+}
+.sicon-facebook i {
+  background-position: -197px 0px;
+}
+.sicon-twitter i {
+  background-position: -237px -1px;
+}
+.sicon-linkedin i {
+  background-position: -277px -1px;
+}
+.sicon-youtube i {
+  background-position: -317px -1px;
+}
+.sicon-pinterest i {
+  background-position: -356px -1px;
+}
+/*
+*   Small social icons with border
+*/
+.social-icons.bordered {
+  border-right: 2px solid #ffffff;
+}
+.social-icons.bordered a {
+  border: 2px solid #ffffff;
+  border-right: none;
+  padding: 6px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.social-icons.bordered a:hover {
+  background-color: #ffffff;
+}
+.social-icons.bordered a:hover i {
+  background-image: url("../images/sicon-set.png");
+}
+.social-icons.bordered-black {
+  border-right: 2px solid #292929;
+}
+.social-icons.bordered-black a {
+  border: 2px solid #292929;
+  border-right: none;
+}
+.social-icons.bordered-black a:hover {
+  background-color: #292929;
+}
+.social-icons.bordered-black a:hover i {
+  background-image: url("../images/sicon-set-white.png");
+}
+/*
+*   Big social icons with hover background
+*   Default usage: Header
+*/
+.social-icons.hover-big [class^="sicon-"],
+.social-icons.hover-big [class*=" sicon-"] {
+  padding: 9px 8px 8px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.social-icons.hover-big a i {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.social-icons.hover-big a:hover i {
+  background-image: url("../images/sicon-set-white.png");
+}
+.social-icons.hover-big .sicon-facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons.hover-big .sicon-twitter:hover {
+  background-color: #44CBFF;
+}
+.social-icons.hover-big .sicon-linkedin:hover {
+  background-color: #1E79C0;
+}
+.social-icons.hover-big .sicon-youtube:hover {
+  background-color: #FF0000;
+}
+.social-icons.hover-big .sicon-pinterest:hover {
+  background-color: #D90000;
+}
+.social-icons.hover-big .sicon-search:hover {
+  background-color: #000000;
+}
+.social-icons.hover-big .sicon-place:hover {
+  background-color: #000000;
+}
+.social-icons.hover-big .sicon-phone:hover {
+  background-color: #000000;
+}
+.social-icons.hover-big .sicon-mail:hover {
+  background-color: #000000;
+}
+.social-icons.hover-big .sicon-clock:hover {
+  background-color: #000000;
+}
+
+/* TOP WELCOME SECTION */
+
+.page-welcome {
+	height: 100vh;
+	padding-top: 20vh;
+	background: #292929 url("../images/tru_colors_main_background_min_grey.jpg") 50% 0 repeat fixed;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.divider img {
+	margin-bottom: 3.8rem;
+	margin-top: 3.8rem;
+}
+
+.divider p {
+	font-weight: 800;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+	line-height: 27px;
+}
+
+.social-icons {
+	margin: 50px auto 0;
+}

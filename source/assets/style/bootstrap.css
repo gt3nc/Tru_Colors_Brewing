@@ -6731,16 +6731,17 @@ button.close {
 *   PAGE | WELCOME
 */
 .page-welcome {
-  width: 100%;
   height: 100%;
+  width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
   background: #292929 url(../images/tru_colors_main_background_min_grey.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 8rem;
   /* Social icons box */
 }
 .page-welcome .logo {
@@ -8422,10 +8423,10 @@ blockquote:before {
   .portfolio-items > li img {
     width: 100%;
   }
-  .centralized {
+  /*.centralized {
     left: auto;
     float: none;
-  }
+  }*/
   .line-divider,
   .show-more-cube {
     width: auto !important;
