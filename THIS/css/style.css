@@ -328,7 +328,18 @@ p {
 	padding-bottom: 4rem;
 }
 
-/* ABOUT / MISSION SECTION */
+/* NEWS SECTION, MAIN PAGE */
+
+.page-articles {
+	padding-bottom: 4rem;
+	padding-top: 1.5rem;
+}
+
+.page-articles img {
+	width: 165px;
+}
+
+/* TEAM SECTION, MAIN PAGE */
 
 .page-team p {
 	margin-bottom: 5rem;
