@@ -162,6 +162,7 @@ h1 {
 	font-family: industry
   	line-height: 81px;
   	letter-spacing: 1px;
+  	margin-bottom: 3rem;
 }
 
 h4 {
@@ -326,8 +327,8 @@ footer {
 }
 
 .page-info, .page-impact, .page-news, .page-team, .page-about, .page-construction, .page-careers {
-	padding-top: 3rem;
-	padding-bottom: 4rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 footer span {
@@ -447,6 +448,15 @@ label {
 
 .thumbnails li {
 	margin-bottom: 4rem;
+}
+
+/* EVENTS PAGE */
+
+.top-header {
+	background: url('../images/tru_colors_main_background_min_grey.jpg') 50% 0 no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
 }
 
 /* RESPONSIVENESS */
