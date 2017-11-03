@@ -1,11 +1,4 @@
-@font-face {
-	font-family: 'ChunkFiveRegular';
-	src: url('../css/fonts/Chunkfive-webfont.eot');
-	src: url('../css/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Chunkfive-webfont.woff') format('woff'), url('../css/fonts/Chunkfive-webfont.ttf') format('truetype'), url('../css/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	text-rendering: optimizeLegibility;
-}
+/* Colors: #2c1549 purple, #f27421 orange, #fcb514 yellow */
 
 html, body {
 	overflow-x: hidden;
@@ -317,18 +310,37 @@ p {
 	text-transform: uppercase;
 	color: #ffffff;
 	font-weight: 800;
+	font-family: industry;
+	font-size: 18pt; 
 }
 
 .social-icons {
 	margin: 50px auto 0;
 }
 
-.page-team, .page-about {
+.page-info, .page-impact, .page-news, .page-team, .page-about {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 }
 
+footer span {
+	font-family: 'Open sans', sans-serif;
+	margin-left: 10rem;
+}
+
+/* IMPACT SECTION */
+
+/*.page-impact {
+	background: url('../images/colors.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+}*/
+
 /* NEWS SECTION, MAIN PAGE */
+
+/*.page-impact h1, .page-impact p {
+	color: #ffffff;
+}*/
 
 .page-articles {
 	padding-bottom: 4rem;
@@ -339,9 +351,9 @@ p {
 	width: 165px;
 }
 
-/* TEAM SECTION, MAIN PAGE */
+/* TEAM SECTION */
 
-.page-team p {
+.page-news p, .page-team p {
 	margin-bottom: 5rem;
 }
 
@@ -356,6 +368,11 @@ p {
 }
 
 /* ABOUT PAGE */
+
+.header-image {
+	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+}
 
 .page-about p {
 	margin-bottom: 3rem;
