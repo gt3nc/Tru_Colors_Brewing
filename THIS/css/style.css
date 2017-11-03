@@ -285,6 +285,13 @@ p {
 	margin-bottom: 2rem;
 }
 
+/* FOOTER SECTION FOR ALL PAGES */
+
+footer {
+	height: 10vh;
+	padding-top: 4.5vh;
+}
+
 /* TOP WELCOME SECTION */
 
 .page-welcome {
@@ -318,7 +325,7 @@ p {
 	margin: 50px auto 0;
 }
 
-.page-info, .page-impact, .page-news, .page-team, .page-about {
+.page-info, .page-impact, .page-news, .page-team, .page-about, .page-construction {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 }
@@ -336,11 +343,16 @@ footer span {
 	background-position: center;
 }*/
 
+
 /* NEWS SECTION, MAIN PAGE */
 
-/*.page-impact h1, .page-impact p {
+.page-news {
+	background-color: #2c1549;
+}
+
+.page-news h1, .page-news p, .page-construction h1, .page-construction p {
 	color: #ffffff;
-}*/
+}
 
 .page-articles {
 	padding-bottom: 4rem;
@@ -349,6 +361,56 @@ footer span {
 
 .page-articles img {
 	width: 165px;
+}
+
+/* CAREERS PAGE */
+
+.page-construction {
+	background-color: #2c1549;
+	margin-top: 54px;
+}
+
+.page-careers h4, .page-careers h1, .page-careers p {
+	text-align: center;
+}
+
+label {
+ 	letter-spacing: .75px;
+}
+
+.submit-button {
+	margin-bottom: 5rem;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.8px;
+	line-height: 24px;
+	text-shadow: 0 1px 1px #211037;
+	background: #2c1549;
+	border-radius: 4px;
+	padding: 1.2rem;
+	outline: none;
+	border-top: 1px solid #f27421;
+	border-left: 1px solid #f27421;
+	border-bottom: 1px solid #fcb514;
+	border-right: 1px solid #fcb514;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	font-weight: 400;
+	touch-action: manipulation;
+	cursor: pointer;
+}
+
+/* ABOUT PAGE */
+
+.header-image {
+	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+
+.page-about p, .page-construction p {
+	margin-bottom: 3rem;
 }
 
 /* TEAM SECTION */
@@ -367,20 +429,21 @@ footer span {
 	margin-bottom: 4rem;
 }
 
-/* ABOUT PAGE */
-
-.header-image {
-	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
-	background-size: cover;
-}
-
-.page-about p {
-	margin-bottom: 3rem;
-}
-
 /* RESPONSIVENESS */
 
+@media (max-width: 991px) {
+
+	#main-menu {
+		margin-right: 0 !important;
+	}
+	
+}
+
 @media (max-width: 767px) {
+
+	.menu-list {
+		margin-right: 0 !important;
+	}
 
 	#navigation .mobile-menu {
 		display: block !important;
@@ -392,10 +455,15 @@ footer span {
 	}
 
 	#navigation #main-menu.collapsing, #navigation #main-menu.in {
-    display: block !important;
-    float: none;
-    width: 100%;
-    overflow: hidden;
+	    display: block !important;
+	    float: none;
+	    width: 100%;
+	    overflow: hidden;
+	}
+
+	.submit-button {
+		font-size: 14pt;
+		padding: .8rem;
 	}
 
 }
@@ -409,4 +477,5 @@ footer span {
 	.divider-image {
 		width: 400px;
 	}
+
 }
