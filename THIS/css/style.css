@@ -410,8 +410,17 @@ label {
 /* ABOUT PAGE */
 
 .header-image {
-	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/brewery.jpg');
 	background-size: cover;
+	background-position: center;
+	margin-top: 54px;
+	height: 45vh;
+}
+
+.header-image h1 {
+	color: #ffffff;
+	text-align: center;
+	margin-top: 30vh;
 }
 
 .page-about p, .page-construction p {
