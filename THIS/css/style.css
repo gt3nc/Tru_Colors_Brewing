@@ -351,7 +351,7 @@ footer span {
 	background-color: #2c1549;
 }
 
-.page-news h1, .page-news p, .page-careers h1, .page-careers p, label {
+.page-news h1, .page-news p, .page-careers h1, .page-careers p {
 	color: #ffffff;
 }
 
@@ -378,6 +378,14 @@ footer span {
 
 .page-careers h4, .page-careers h1, .page-careers p {
 	text-align: center;
+}
+
+.construction-form label {
+	color: #ffffff;
+}
+
+.contractor-form label {
+	color: #000000;
 }
 
 label {
