@@ -366,6 +366,14 @@ footer span {
 
 /* CAREERS PAGE */
 
+.construction-header {
+	background: url('../images/construction.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: 54px; 
+	height: 100vh;
+}
+
 .page-construction {
 	/*background-color: #2c1549;*/
 	margin-top: 54px;
