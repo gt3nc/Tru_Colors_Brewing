@@ -169,3 +169,10 @@ function ParseChar(sStr, sChar) {
 
     return sNewStr;
 }
+
+// Arrow scroll functions
+$(".arrow").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".page-about").offset().top
+    }, 'slow')
+})
