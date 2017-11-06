@@ -358,10 +358,11 @@ p {
 }*/
 
 
-/* NEWS SECTION, MAIN PAGE */
+/* MAIN PAGE */
 
-.page-impact {
+.page-info {
 	background-color: #f5f5f5;
+	background-size: cover;
 }
 
 .page-news {
