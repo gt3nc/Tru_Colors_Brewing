@@ -389,9 +389,9 @@ p {
 /* CAREERS PAGE */
 
 .construction-header {
-	background: url('../images/cons.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/tru_colors_brewing_careers_background_min.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 	margin-top: 54px; 
 	height: 45vh;
 }
