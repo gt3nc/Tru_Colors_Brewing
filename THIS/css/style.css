@@ -555,6 +555,16 @@ label {
 
 .page-about {
 	padding-top: 54px;
+	padding-bottom: 5rem;
+}
+
+.gallery-link {
+	color: #f27421;
+}
+
+.gallery-link:hover {
+	color: #f27421;
+	cursor: pointer;
 }
 
 /* RESPONSIVENESS */
