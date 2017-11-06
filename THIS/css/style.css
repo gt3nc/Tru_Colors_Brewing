@@ -387,6 +387,14 @@ p {
 	width: 165px;
 }
 
+.news-video {
+	margin-bottom: 4rem;
+}
+
+.news-video .video {
+	max-width: 630px;
+}
+
 /* CAREERS PAGE */
 
 .construction-header {
