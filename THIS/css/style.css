@@ -454,7 +454,7 @@ label {
 /* ABOUT PAGE */
 
 .header-image {
-	background: url('../images/brewery2.jpg');
+	background: url('../images/brewery_min.jpg');
 	background-size: cover;
 	background-position: center;
 	margin-top: 54px;
@@ -489,7 +489,7 @@ label {
 /* EVENTS PAGE */
 
 .top-header {
-	background: url('../images/2017261-1-min.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg') 50% 0 no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
