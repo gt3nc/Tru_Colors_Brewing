@@ -374,6 +374,10 @@ footer span {
 	height: 100vh;
 }
 
+.construction-header img {
+	padding-top: 20vh;
+}
+
 .page-construction {
 	/*background-color: #2c1549;*/
 	margin-top: 54px;
