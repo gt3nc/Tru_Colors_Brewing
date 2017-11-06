@@ -288,9 +288,27 @@ p {
 
 /* FOOTER SECTION FOR ALL PAGES */
 
-footer {
-	height: 10vh;
-	padding-top: 4.5vh;
+.footer {
+	margin-top: 3rem;
+	margin-bottom: 20px;
+	padding-right: 10rem;
+	padding-left: 10rem;
+}
+
+.footer p {
+	float: left;
+	vertical-align: middle;
+	font-size: 12pt;
+}
+
+.footer a {
+	float: right;
+	display: inline-block;
+	padding: .5rem;
+}
+
+.footer a img {
+	height: 20px;
 }
 
 /* TOP WELCOME SECTION */
@@ -326,7 +344,7 @@ footer {
 	margin: 50px auto 0;
 }
 
-.page-info, .page-impact, .page-news, .page-team, .page-construction, .page-careers {
+.page-info, .page-impact, .page-news, .page-team, .page-careers {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -369,9 +387,9 @@ footer span {
 .construction-header {
 	background: url('../images/construction.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	margin-top: 54px; 
-	height: 100vh;
+	height: 45vh;
 }
 
 .construction-header img {
@@ -431,7 +449,7 @@ label {
 /* ABOUT PAGE */
 
 .header-image {
-	background: url('../images/brewery.jpg');
+	background: url('../images/brewery2.jpg');
 	background-size: cover;
 	background-position: center;
 	margin-top: 54px;
@@ -469,7 +487,7 @@ label {
 	background: url('../images/tru_colors_main_background_min_grey.jpg') 50% 0 no-repeat fixed;
 	background-position: center;
 	background-size: cover;
-	height: 80vh;
+	height: 50vh;
 }
 
 /* RESPONSIVENESS */
@@ -478,6 +496,10 @@ label {
 
 	#main-menu {
 		margin-right: 0 !important;
+	}
+
+	.footer {
+		margin-top: 2rem;
 	}
 
 }
@@ -509,6 +531,19 @@ label {
 		padding: .8rem;
 	}
 
+	.footer p, .footer a {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 667px) {
+
+	.footer {
+		padding-right: 10rem !important;
+		padding-left: 10rem !important;
+	}
+
 }
 
 @media (max-width: 563px) {
@@ -521,4 +556,22 @@ label {
 		width: 400px;
 	}
 
+}
+
+@media (max-width: 507px) {
+
+	.footer {
+		padding-right: 3rem !important;
+		padding-left: 3rem !important;
+	}
+
+}
+
+@media (max-width: 367px) {
+
+	.footer {
+		padding-right: 1rem !important;
+		padding-left: 1rem !important;
+	}
+	
 }
