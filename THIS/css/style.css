@@ -350,15 +350,6 @@ p {
 	padding-bottom: 5rem;
 }
 
-/* IMPACT SECTION */
-
-/*.page-impact {
-	background: url('../images/colors.jpg') 50% 0 no-repeat fixed;
-	background-size: cover;
-	background-position: center;
-}*/
-
-
 /* MAIN PAGE */
 
 .page-info {
@@ -367,7 +358,7 @@ p {
 }
 
 .page-impact img {
-	height: 500px;
+	
 }
 
 .page-news {
@@ -566,14 +557,6 @@ label {
 	padding-bottom: 5rem;
 }
 
-.gallery-link {
-	color: #f27421;
-}
-
-.gallery-link:hover {
-	color: #f27421;
-	cursor: pointer;
-}
 
 /* RESPONSIVENESS */
 
