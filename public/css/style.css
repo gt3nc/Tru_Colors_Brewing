@@ -723,6 +723,13 @@ label {
 
 }
 
+@media (max-width: 441px) {
+
+	.more-images {
+		font-size: 10pt;
+	}
+}
+
 @media (max-width: 407px) {
 
 	#construction-h1 {
