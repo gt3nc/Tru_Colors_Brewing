@@ -403,8 +403,8 @@ p {
 	margin-top: 54px;
 }
 
-.page-construction p, .page-contractor p,  {
-	margin-bottom: 5rem;
+.rules p {
+	margin-bottom: 3rem !important;
 }
 
 .page-careers {
@@ -462,9 +462,22 @@ label {
 	height: 45vh;
 }
 
+.page-about {
+	padding-top: 5rem;
+	/*padding-bottom: 5rem;*/
+}
+
+.page-about p {
+	margin-bottom: 3rem;
+}
+
+.page-about p:last-child {
+	margin-bottom: 5rem;
+}
+
 .cans img {
 	height: 200px;
-	margin-bottom: 4rem;
+	/*margin-bottom: 4rem;*/
 }
 
 /* TEAM SECTION */
@@ -550,10 +563,7 @@ label {
 	cursor: pointer;
 }
 
-.page-about {
-	padding-top: 54px;
-	padding-bottom: 5rem;
-}
+
 
 .line-divider-inline:after {
   background: url("../images/divider_more_text.png") no-repeat bottom center;
@@ -573,7 +583,6 @@ label {
 @media (max-width: 991px) {
 
 	h1 {
-		font-size: 44pt;
 		line-height: 60px;
 	}
 
@@ -599,12 +608,11 @@ label {
 @media (max-width: 767px) {
 
 	h1 {
-		font-size: 42pt;
 		margin-top: 0 !important;
 	}
 
 	p {
-		font-size: 17px;
+		font-size: 12pt;
 	}
 
 	.menu-list {
@@ -640,6 +648,10 @@ label {
 		padding: .8rem;
 	}
 
+	.cans img {
+		margin-bottom: 3rem;
+	}
+
 	.footer p, .footer a {
 		text-align: center;
 	}
@@ -653,7 +665,11 @@ label {
 	}
 
 	.page-construction {
-		margin-top: 2rem;
+		margin-top: 0;
+	}
+
+	.rules p:last-child {
+		margin-bottom: 0 !important;
 	}
 
 }
