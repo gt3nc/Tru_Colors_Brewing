@@ -316,19 +316,15 @@ p {
 
 .page-welcome {
 	height: 100vh;
-	margin-top: 40px;
+}
+
+.header {
 	padding-top: 20vh;
-	/*background: #292929;
- 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;*/
-  	padding-bottom: 10vh;
 }
 
 #video-background {
 /*  making the video fullscreen  */
-  position: fixed;
+  position: absolute;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -586,12 +582,24 @@ label {
 
 @media (max-width: 991px) {
 
-	/*.line-divider-inline:after {
-		width: 80%;
-	}*/
+	h1 {
+		font-size: 44pt;
+	}
 
 	#main-menu {
 		margin-right: 0 !important;
+	}
+
+	.align-impact h1 {
+		text-align: center !important;
+	}
+
+	.align-impact p {
+		padding-bottom: 2rem;
+	}
+
+	.page-careers p {
+		margin-bottom: 2rem;
 	}
 
 	.footer {
@@ -601,6 +609,15 @@ label {
 }
 
 @media (max-width: 767px) {
+
+	h1 {
+		font-size: 42pt;
+		margin-top: 0 !important;
+	}
+
+	p {
+		font-size: 17px;
+	}
 
 	.menu-list {
 		margin-right: 0 !important;
@@ -622,10 +639,6 @@ label {
 	    overflow: hidden;
 	}
 
-	/*.line-divider-inline:after {
-		width: 80%;
-	}*/
-
 	.submit-button {
 		font-size: 14pt;
 		padding: .8rem;
@@ -633,6 +646,18 @@ label {
 
 	.footer p, .footer a {
 		text-align: center;
+	}
+
+}
+
+@media (max-width: 687px) {
+
+	#construction-h1 {
+		font-size: 36pt;
+	}
+
+	.page-construction {
+		margin-top: 2rem;
 	}
 
 }
