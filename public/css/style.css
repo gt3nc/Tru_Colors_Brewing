@@ -190,7 +190,7 @@ h5 small {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14pt;
-	line-height: 27px;
+	line-height: 30px;
 	color: #292929;
 	font-weight: 100;
 }
@@ -498,12 +498,20 @@ label {
 	margin-bottom: 5rem;
 }
 
+.cans {
+	padding-top: 5rem;
+}
+
 .cans img {
 	height: 200px;
 	/*margin-bottom: 4rem;*/
 }
 
 /* TEAM SECTION */
+
+.page-team h1 {
+	margin-bottom: 5rem;
+}
 
 .page-news p, .page-team p {
 	margin-bottom: 5rem;
