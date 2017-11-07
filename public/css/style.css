@@ -680,6 +680,10 @@ label {
 		padding-bottom: 2rem;
 	}
 
+	.page-careers h1, .page-contractor h1 {
+		font-size: 30pt !important;
+	}
+
 	.submit-button {
 		font-size: 14pt;
 		padding: .8rem;
@@ -697,9 +701,9 @@ label {
 
 @media (max-width: 687px) {
 
-	#construction-h1 {
+	/*#construction-h1 {
 		font-size: 36pt;
-	}
+	}*/
 
 	.page-construction {
 		margin-top: 0;
@@ -723,8 +727,9 @@ label {
 @media (max-width: 571px) {
 
 	.page-info h1 {
-		font-size: 36pt;
+		font-size: 36pt !important;
 	}
+
 }
 
 @media (max-width: 563px) {
@@ -769,9 +774,9 @@ label {
 
 @media (max-width: 407px) {
 
-	#construction-h1 {
+	#construction-h1, .page-careers h1, .page-contractor h1 {
 		font-size: 30pt;
-		line-height: 40px;
+		line-height: 50px;
 	}
 
 	.footer {
