@@ -318,12 +318,24 @@ p {
 	height: 100vh;
 	margin-top: 40px;
 	padding-top: 20vh;
-	background: #292929;
+	/*background: #292929;
  	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-size: cover;
+  	background-size: cover;*/
   	padding-bottom: 10vh;
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
 }
 
 .divider img {
