@@ -157,16 +157,15 @@ a {
 }
 
 h1 {
-	font-size: 50pt;
+	font-size: 42pt;
 	font-family: industry;
-  	line-height: 81px;
+  	line-height: 60px;
   	letter-spacing: 1px;
   	margin-bottom: 3rem;
   	text-align: center;
 }
 
 h4 {
-	font-size: 19px;
 	text-transform: uppercase;
 	font-weight: 800;
 	color: #aaaaaa;
@@ -174,7 +173,7 @@ h4 {
 }
 
 h5 {
-	font-size: 19px;
+	font-size: 16pt;
 	text-transform: uppercase;
 	font-weight: 800;
 	margin: 19px 0;
@@ -190,7 +189,7 @@ h5 small {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 19px;
+	font-size: 14pt;
 	line-height: 27px;
 	color: #292929;
 	font-weight: 100;
@@ -343,7 +342,7 @@ p {
 }
 
 .tag img {
-	height: 100px;
+	height: 90px;
 }
 
 .divider img {
@@ -386,7 +385,6 @@ p {
 }
 
 .page-articles {
-	padding-bottom: 4rem;
 	padding-top: 1.5rem;
 }
 
@@ -709,7 +707,7 @@ label {
 	}
 
 	.tag img {
-		height: 80px;
+		height: 70px;
 	}
 
 	.tag h5 {
@@ -735,7 +733,7 @@ label {
 @media (max-width: 399px) {
 
 	.tag img {
-		height: 60px;
+		height: 50px;
 	}
 
 	.tag h5 {
