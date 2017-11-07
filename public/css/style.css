@@ -333,6 +333,19 @@ p {
   z-index: -100;
 }
 
+.tag {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.tag h5 {
+	margin-bottom: 0;
+}
+
+.tag img {
+	height: 100px;
+}
+
 .divider img {
 	margin-bottom: 3.8rem;
 	margin-top: 3.8rem;
@@ -689,6 +702,22 @@ label {
 
 }
 
+@media (max-width: 541px) {
+
+	.tag {
+		margin-bottom: 1.5rem;
+	}
+
+	.tag img {
+		height: 80px;
+	}
+
+	.tag h5 {
+		font-size: 14pt !important;
+	}
+
+}
+
 @media (max-width: 407px) {
 
 	#construction-h1 {
@@ -701,6 +730,17 @@ label {
 		padding-left: 1rem !important;
 	}
 
+}
+
+@media (max-width: 399px) {
+
+	.tag img {
+		height: 60px;
+	}
+
+	.tag h5 {
+		font-size: 12pt !important;
+	}
 }
 
 @media (max-width: 367px) {
