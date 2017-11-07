@@ -435,6 +435,10 @@ p {
 	text-align: center;
 }
 
+.page-careers p, .page-contractor p:last-child {
+	margin-bottom: 3rem;
+}
+
 .construction-form label {
 	color: #ffffff;
 }
