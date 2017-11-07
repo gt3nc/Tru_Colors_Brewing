@@ -364,10 +364,6 @@ p {
 	background-size: cover;*/
 }
 
-.page-impact img {
-	
-}
-
 .page-news {
 	background-color: #2c1549;
 }
@@ -385,14 +381,6 @@ p {
 	width: 165px;
 }
 
-.news-video {
-	margin-bottom: 4rem;
-}
-
-.news-video .video {
-	max-width: 630px;
-}
-
 /* CAREERS PAGE */
 
 .construction-header {
@@ -405,12 +393,13 @@ p {
 
 .construction-header img {
 	padding-top: 20vh;
-}
-
-.page-construction {
-	/*background-color: #2c1549;*/
 	margin-top: 54px;
 }
+
+/*.page-construction {*/
+	/*background-color: #2c1549;*/
+	/*margin-top: 54px;
+}*/
 
 .page-careers {
 	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
@@ -583,10 +572,16 @@ label {
 
 	h1 {
 		font-size: 44pt;
+		line-height: 60px;
 	}
 
 	#main-menu {
 		margin-right: 0 !important;
+	}
+
+	.page-info, .page-impact, .page-news, .page-team, .page-construction, .page-careers, {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 
 	.align-impact h1 {
@@ -695,6 +690,11 @@ label {
 }
 
 @media (max-width: 407px) {
+
+	#construction-h1 {
+		font-size: 30pt;
+		line-height: 40px;
+	}
 
 	.footer {
 		padding-right: 1rem !important;
