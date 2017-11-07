@@ -207,6 +207,7 @@ p {
 .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px;
+    opacity: 1;
 }
 
 .navbar-fixed-top, .navbar-fixed-bottom {
@@ -323,6 +324,7 @@ p {
 #video-background {
 /*  making the video fullscreen  */
   position: absolute;
+  top: 54px;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -330,19 +332,6 @@ p {
   width: auto;
   height: auto;
   z-index: -100;
-}
-
-.tag {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-}
-
-.tag h5 {
-	margin-bottom: 0;
-}
-
-.tag img {
-	height: 90px;
 }
 
 .divider img {
@@ -364,12 +353,37 @@ p {
 	margin: 50px auto 0;
 }
 
+.page-info {
+	background-color: #ffffff;
+}
+
 .page-info, .page-impact, .page-news, .page-construction, .page-careers, .page-contractor, .page-team  {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
 /* MAIN PAGE */
+
+.tag {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.tag h5 {
+	margin-bottom: 0;
+}
+
+.tag img {
+	height: 90px;
+}
+
+.page-info p {
+	margin-bottom: 3rem;
+}
+
+.page-info p:last-child {
+	margin-bottom: 0;
+}
 
 .page-news {
 	background-color: #2c1549;
