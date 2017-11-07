@@ -364,17 +364,12 @@ p {
 	margin: 50px auto 0;
 }
 
-.page-info, .page-impact, .page-news, .page-team, .page-careers {
+.page-info, .page-impact, .page-news, .page-construction, .page-careers, .page-contractor, .page-team  {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
 /* MAIN PAGE */
-
-.page-info {
-	/*background-color: #f5f5f5;
-	background-size: cover;*/
-}
 
 .page-news {
 	background-color: #2c1549;
@@ -389,8 +384,8 @@ p {
 }
 
 .page-articles img {
-	height: 30px;
-	max-width: 165px;
+	/*height: 40px;*/
+	width: 165px;
 }
 
 /* CAREERS PAGE */
@@ -408,10 +403,9 @@ p {
 	margin-top: 54px;
 }
 
-/*.page-construction {*/
-	/*background-color: #2c1549;*/
-	/*margin-top: 54px;
-}*/
+.page-construction p, .page-contractor p,  {
+	margin-bottom: 5rem;
+}
 
 .page-careers {
 	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
@@ -466,10 +460,6 @@ label {
 	background-position: center;
 	margin-top: 54px;
 	height: 45vh;
-}
-
-.page-about p, .page-construction p {
-	margin-bottom: 3rem;
 }
 
 .cans img {
@@ -596,13 +586,9 @@ label {
 		padding-bottom: 2rem;
 	}
 
-	.align-impact h1 {
-		text-align: center !important;
-	}
-
-	.align-impact p {
-		padding-bottom: 2rem;
-	}
+	/*.page-articles img {
+		height: 30px;
+	}*/
 
 	.page-careers p {
 		margin-bottom: 2rem;
@@ -643,6 +629,10 @@ label {
 	    float: none;
 	    width: 100%;
 	    overflow: hidden;
+	}
+
+	.page-articles img {
+		margin-bottom: 3rem;
 	}
 
 	.submit-button {
