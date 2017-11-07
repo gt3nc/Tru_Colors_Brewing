@@ -317,6 +317,10 @@ p {
 	height: 100vh;
 }
 
+.page-welcome video {
+	width: 1%;
+}
+
 .header {
 	padding-top: 20vh;
 }
@@ -346,7 +350,8 @@ p {
 	color: #ffffff;
 	font-weight: 800;
 	font-family: industry;
-	font-size: 18pt; 
+	font-size: 18pt;
+	text-shadow: 1px 1px 0px #000000;
 }
 
 .social-icons {
@@ -593,6 +598,20 @@ label {
 }
 
 /* RESPONSIVENESS */
+
+@media (max-width: 1200px) {
+
+	video {
+		display: none !important;
+	}
+
+	.page-welcome {
+		background: url('../images/tru_colors_background_image2.jpg') 50% 0 no-repeat fixed;
+		background-size: cover;
+		background-position: center;
+	}
+
+}
 
 @media (max-width: 991px) {
 
