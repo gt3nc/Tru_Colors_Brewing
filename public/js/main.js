@@ -1,3 +1,11 @@
+// for looping video
+var vid = document.getElementById("video-background");
+
+function enableLoop() { 
+  vid.loop = true;
+  vid.load();
+}
+
 // Handles phone number input format
 var zChar = new Array(' ', '(', ') ', '-', '.');
 var maxphonelength = 14;
