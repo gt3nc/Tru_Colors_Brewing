@@ -406,12 +406,11 @@ p {
 /* CAREERS PAGE */
 
 .construction-header {
-	background: url('../images/tru_colors_brewing_careers_background_min3.jpg') no-repeat center center fixed;
+	background: url('../images/tru_colors_brewing_careers_background_min3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	margin-top: 54px;
+	background-position: bottom;
 	height: 45vh;
 }
 
@@ -620,11 +619,9 @@ label {
 	.page-welcome {
 		background-image: url('../images/tru_colors_background_image2.jpg');
 		background-repeat: no-repeat;
-		background-attachment: fixed;
 		background-size: cover;
 		background-position: center;
 		height: 100vh;
-		top: 0;
 	}
 
 }
