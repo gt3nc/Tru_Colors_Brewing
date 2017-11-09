@@ -195,6 +195,38 @@ p {
 	font-weight: 100;
 }
 
+/* BACKGROUND IMAGES */
+
+.construction-header, .header-image, .top-header, .page-careers {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-image, .top-header, .page-careers {
+	background-position: center;
+}
+
+.construction-header {
+	background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
+	background-position: bottom;
+	height: 45vh;
+}
+
+.page-careers {
+	background-image: url('../images/wilmington_min.jpg');
+}
+
+.header-image {
+	background-image: url('../images/tru_colors_main_background_min_grey-min.jpg');
+	margin-top: 54px;
+	height: 45vh;
+}
+
+.top-header {
+	background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
+	height: 100vh;
+}
+
 /* NAV BAR */
 
 #navigation {
@@ -370,7 +402,7 @@ p {
 	margin-bottom: 3rem;
 }
 
-.tag h5 {
+.tag h5, .page-info p:last-child {
 	margin-bottom: 0;
 }
 
@@ -382,9 +414,9 @@ p {
 	margin-bottom: 3rem;
 }
 
-.page-info p:last-child {
+/*.page-info p:last-child {
 	margin-bottom: 0;
-}
+}*/
 
 .page-news {
 	background-color: #2c1549;
@@ -405,35 +437,17 @@ p {
 
 /* CAREERS PAGE */
 
-.construction-header {
-	background: url('../images/tru_colors_brewing_careers_background_min3.jpg');
-	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
-	background-size: cover;
-	background-position: bottom;
-	height: 45vh;
-}
-
 .construction-header img {
 	padding-top: 20vh;
 	margin-top: 54px;
 }
 
-.rules p {
+.rules p, .page-careers p {
 	margin-bottom: 3rem !important;
-}
-
-.page-careers {
-	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat;
-	background-size: cover;
 }
 
 .page-careers h4, .page-careers h1 {
 	text-align: center;
-}
-
-.page-careers p {
-	margin-bottom: 3rem;
 }
 
 .construction-form label {
@@ -472,20 +486,10 @@ label {
 	cursor: pointer;
 }
 
-/* ABOUT PAGE */
+/* TEAM / ABOUT PAGE */
 
-.header-image {
-	background: url('../images/tru_colors_main_background_min_grey-min.jpg');
-	/*background-attachment: fixed;*/
-	background-size: cover;
-	background-position: center;
-	margin-top: 54px;
-	height: 45vh;
-}
-
-.page-about {
+.page-about, .cans {
 	padding-top: 5rem;
-	/*padding-bottom: 5rem;*/
 }
 
 .page-about p {
@@ -496,28 +500,18 @@ label {
 	margin-bottom: 5rem;
 }
 
-.cans {
-	padding-top: 5rem;
-}
-
 .cans img {
 	height: 200px;
 	/*margin-bottom: 4rem;*/
 }
 
-/* TEAM SECTION */
+/* TEAM INFO SECTION */
 
-.page-team h1 {
+.page-team h1, .page-news p, .page-team p {
 	margin-bottom: 5rem;
 }
-
-.page-news p, .page-team p {
-	margin-bottom: 5rem;
-}
-
 .thumbnails {
 	list-style: none;
-	/*margin-left: -15px;*/
 	padding: 0;
 }
 
@@ -526,15 +520,6 @@ label {
 }
 
 /* EVENTS PAGE */
-
-.top-header {
-	background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
-	/*background-attachment: fixed;*/
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 100vh;
-}
 
 .arrow {
   opacity: .8;
@@ -594,8 +579,6 @@ label {
 	cursor: pointer;
 }
 
-
-
 .line-divider-inline:after {
   background: url("../images/divider_more_text.png") no-repeat bottom center;
   padding-bottom: 0px;
@@ -617,40 +600,12 @@ label {
 		display: none !important;
 	}
 
-	.page-welcome, .construction-header, .header-image, .top-header {
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
-		
-	}
-
-	.page-welcome, .header-image, .top-header {
-		background-position: center !important;
-	}
-
 	.page-welcome {
 		background-image: url('../images/tru_colors_background_image2.jpg');
 		height: 100vh;
-	}
-
-	.construction-header {
-		background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
-		background-position: bottom !important;
-		height: 45vh;
-	}
-
-	.page-careers {
-		background-image: url('../images/wilmington_min.jpg');
-	}
-
-	.header-image {
-		background-image: url('../images/tru_colors_main_background_min_grey-min.jpg');
-		margin-top: 54px;
-		height: 45vh;
-	}
-
-	.top-header {
-		background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
-		height: 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 
 }
