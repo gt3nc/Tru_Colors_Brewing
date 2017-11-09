@@ -530,7 +530,9 @@ label {
 /* EVENTS PAGE */
 
 .top-header {
-	background: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg') 50% 0 no-repeat fixed;
+	background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
