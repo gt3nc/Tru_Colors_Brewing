@@ -620,6 +620,10 @@ label {
 	.page-welcome, .construction-header, .header-image, .top-header {
 		background-repeat: no-repeat;
 		background-size: cover;
+		
+	}
+
+	.page-welcome, .header-image, .top-header {
 		background-position: center;
 	}
 
@@ -629,13 +633,17 @@ label {
 	}
 
 	.construction-header {
-		background: url('../images/tru_colors_brewing_careers_background_min3.jpg');
-		/*background-position: bottom;*/
+		background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
+		background-position: bottom;
 		height: 45vh;
 	}
 
+	.page-careers {
+		background-image: url('../images/wilmington_min.jpg');
+	}
+
 	.header-image {
-		background: url('../images/tru_colors_main_background_min_grey-min.jpg');
+		background-image: url('../images/tru_colors_main_background_min_grey-min.jpg');
 		margin-top: 54px;
 		height: 45vh;
 	}
