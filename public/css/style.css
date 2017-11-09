@@ -476,6 +476,7 @@ label {
 
 .header-image {
 	background: url('../images/tru_colors_main_background_min_grey-min.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	margin-top: 54px;
@@ -616,11 +617,31 @@ label {
 		display: none !important;
 	}
 
-	.page-welcome {
-		background-image: url('../images/tru_colors_background_image2.jpg');
+	.page-welcome, .construction-header, .header-image, .top-header {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+	}
+
+	.page-welcome {
+		background-image: url('../images/tru_colors_background_image2.jpg');
+		height: 100vh;
+	}
+
+	.construction-header {
+		background: url('../images/tru_colors_brewing_careers_background_min3.jpg');
+		/*background-position: bottom;*/
+		height: 45vh;
+	}
+
+	.header-image {
+		background: url('../images/tru_colors_main_background_min_grey-min.jpg');
+		margin-top: 54px;
+		height: 45vh;
+	}
+
+	.top-header {
+		background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
 		height: 100vh;
 	}
 
