@@ -317,25 +317,21 @@ p {
 	height: 100vh;
 }
 
-.page-welcome video {
-	width: 1%;
-}
-
 .header {
 	padding-top: 20vh;
 }
 
 #video-background {
 /*  making the video fullscreen  */
-  position: absolute;
-  top: 54px;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
+	position: absolute;
+	top: 54px;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
 }
 
 .divider img {
@@ -622,7 +618,9 @@ label {
 	}
 
 	.page-welcome {
-		background: url('../images/tru_colors_background_image2.jpg') 50% 0 no-repeat fixed;
+		background-image: url('../images/tru_colors_background_image2.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		background-size: cover;
 		background-position: center;
 	}
