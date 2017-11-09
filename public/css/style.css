@@ -618,13 +618,13 @@ label {
 	}
 
 	.page-welcome, .construction-header, .header-image, .top-header {
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
 		
 	}
 
 	.page-welcome, .header-image, .top-header {
-		background-position: center;
+		background-position: center !important;
 	}
 
 	.page-welcome {
@@ -634,7 +634,7 @@ label {
 
 	.construction-header {
 		background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
-		background-position: bottom;
+		background-position: bottom !important;
 		height: 45vh;
 	}
 
