@@ -410,11 +410,11 @@ p {
 /* CAREERS PAGE */
 
 .construction-header {
-	background-image: url('../images/tru_colors_brewing_careers_background_min.jpg');
+	background-image: url('../images/brewery_min.jpg') 50% 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	margin-top: 54px; 
 	height: 45vh;
 }
@@ -480,7 +480,7 @@ label {
 /* ABOUT PAGE */
 
 .header-image {
-	background: url('../images/brewery_min.jpg');
+	background: url('../images/tru_colors_main_background_min_grey.jpg');
 	background-size: cover;
 	background-position: center;
 	margin-top: 54px;
