@@ -433,7 +433,7 @@ p {
 	text-align: center;
 }
 
-.page-careers p, .page-contractor p:last-child {
+.page-careers p {
 	margin-bottom: 3rem;
 }
 
