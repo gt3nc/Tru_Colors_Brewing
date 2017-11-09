@@ -408,7 +408,7 @@ p {
 .construction-header {
 	background: url('../images/tru_colors_brewing_careers_background_min3.jpg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-size: cover;
 	background-position: bottom;
 	height: 45vh;
@@ -424,7 +424,7 @@ p {
 }
 
 .page-careers {
-	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/wilmington_min.jpg') 50% 0 no-repeat;
 	background-size: cover;
 }
 
@@ -476,7 +476,7 @@ label {
 
 .header-image {
 	background: url('../images/tru_colors_main_background_min_grey-min.jpg');
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-size: cover;
 	background-position: center;
 	margin-top: 54px;
@@ -529,7 +529,7 @@ label {
 
 .top-header {
 	background-image: url('../images/tru_colors_battle_of_the_bosses_header_min.jpg');
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
