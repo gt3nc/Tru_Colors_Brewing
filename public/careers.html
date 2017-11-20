@@ -125,7 +125,7 @@
                     <!-- SIGN UP FORM -->
 
                     <form action="https://formspree.io/mljopzlm" method="POST">
-                        <input type="text" name="_gotcha" style="display: none">
+                        <input type="text" name="_subject" value="Apprentice submission" style="display: none">
 
                         <div class="form-group">
 
@@ -216,6 +216,7 @@
                     <!-- SIGN UP FORM -->
 
                     <form action="https://formspree.io/mljopzlm" method="POST">
+                        <input type="text" name="_gotcha" style="display: none" >
 
                         <div class="form-group">
 
@@ -271,7 +272,9 @@
 
                                 <option>Referring a contractor</option>
 
-                                <!-- <option>Other (Please explain below)</option> -->
+                                <option onselect="otherTextBox()">Other (Please explain below)</option>
+
+                                <textarea class="form-control" id="other-box" rows="3" type="text" name="message" placeholder="Please explain here." required></textarea>
 
                             </select>
 

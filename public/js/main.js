@@ -184,3 +184,8 @@ $(".arrow").click(function() {
         scrollTop: $(".page-about").offset().top
     }, 'slow')
 })
+
+// Handles function to display text box for contractor's "other" selection
+function otherTextBox() {
+    document.getElementById('other-box').style.display = 'visible';
+}

@@ -458,6 +458,11 @@ p {
 	color: #000000;
 }
 
+#other-box {
+	margin-top: 15px;
+	display: none;
+}
+
 label {
  	letter-spacing: .75px;
 }
