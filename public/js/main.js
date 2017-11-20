@@ -186,6 +186,33 @@ $(".arrow").click(function() {
 })
 
 // Handles function to display text box for contractor's "other" selection
-function otherTextBox() {
-    document.getElementById('other-box').style.display = 'visible';
+// $('#select').change(function(){
+
+//     var textarea = $('textarea');
+//     var select = $('#select').val();
+
+//     textarea.hide();
+
+//     if (select == '1') {
+//         textarea.show();
+//     }
+
+//     if (select == '0'){
+//       textarea.hide();
+//     }
+
+// });
+
+function change(obj) {
+
+    var selectBox = obj;
+    var selected = selectBox.options[selectBox.selectedIndex].value;
+    var textarea = document.getElementById("textarea");
+
+    if(selected === '1'){
+        textarea.style.display = "block";
+    }
+    else{
+        textarea.style.display = "none";
+    }
 }

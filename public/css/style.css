@@ -458,7 +458,7 @@ p {
 	color: #000000;
 }
 
-#other-box {
+.other-box {
 	margin-top: 15px;
 	display: none;
 }

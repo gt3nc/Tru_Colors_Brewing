@@ -262,19 +262,19 @@
 
                             <label for="exampleInputOption">Interested in:</label>
 
-                            <select class="form-control" type="text" name="company" placeholder="Your company" required>
+                            <select class="form-control" id="select" type="text" name="company" placeholder="Your company" required onchange="change(this)">
 
-                                <option class="value">Select</option>
+                                <option selected="">Select</option>
 
-                                <option>Learning more about the TCB Apprentice Program</option>
+                                <option value="0">Learning more about the TCB Apprentice Program</option>
 
-                                <option>Partnering with the TCB Apprentice Program</option>
+                                <option value="0">Partnering with the TCB Apprentice Program</option>
 
-                                <option>Referring a contractor</option>
+                                <option value="0">Referring a contractor</option>
 
-                                <option onselect="otherTextBox()">Other (Please explain below)</option>
+                                <option value="1">Other (Please explain below)</option>
 
-                                <textarea class="form-control" id="other-box" rows="3" type="text" name="message" placeholder="Please explain here." required></textarea>
+                                <textarea class="form-control other-box" id="textarea" rows="3" type="text" name="message" placeholder="Please explain here."></textarea>
 
                             </select>
 
