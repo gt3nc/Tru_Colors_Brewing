@@ -595,6 +595,17 @@ label {
   margin-top: -22px;
 }
 
+/* CONTACT PAGE */
+
+.contact-us {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.contact-header p {
+	margin-bottom: 3rem;
+}
+
 /* RESPONSIVENESS */
 
 @media (max-width: 1200px) {
@@ -718,7 +729,7 @@ label {
 
 @media (max-width: 571px) {
 
-	.page-info h1 {
+	.page-info h1, .contact-header h1 {
 		font-size: 36pt !important;
 	}
 
@@ -755,6 +766,10 @@ label {
 		font-size: 14pt !important;
 	}
 
+	.contact-header h1 {
+		margin-bottom: 2rem;
+	}
+
 }
 
 @media (max-width: 441px) {
@@ -762,6 +777,7 @@ label {
 	.more-images {
 		font-size: 10pt;
 	}
+
 }
 
 @media (max-width: 407px) {
@@ -769,6 +785,10 @@ label {
 	#construction-h1, .page-careers h1, .page-contractor h1 {
 		font-size: 30pt;
 		line-height: 50px;
+	}
+
+	.contact-header h1 {
+		font-size: 34pt !important;
 	}
 
 	.footer {
