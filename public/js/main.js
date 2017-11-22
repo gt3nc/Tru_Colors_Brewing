@@ -216,3 +216,7 @@ function change(obj) {
         textarea.style.display = "none";
     }
 }
+
+function contractSubmit() {
+    window.alert("Thanks!")
+}
