@@ -609,6 +609,8 @@ label {
 /* CONTRACTOR THANK YOU FORM */
 
 .thanks {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	margin-top: 54px;
 }
 
