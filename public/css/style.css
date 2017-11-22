@@ -606,6 +606,12 @@ label {
 	margin-bottom: 3rem;
 }
 
+/* CONTRACTOR THANK YOU FORM */
+
+.thanks {
+	margin-top: 54px;
+}
+
 /* RESPONSIVENESS */
 
 @media (max-width: 1200px) {
