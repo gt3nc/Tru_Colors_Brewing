@@ -185,24 +185,7 @@ $(".arrow").click(function() {
     }, 'slow')
 })
 
-// Handles function to display text box for contractor's "other" selection
-// $('#select').change(function(){
-
-//     var textarea = $('textarea');
-//     var select = $('#select').val();
-
-//     textarea.hide();
-
-//     if (select == '1') {
-//         textarea.show();
-//     }
-
-//     if (select == '0'){
-//       textarea.hide();
-//     }
-
-// });
-
+// Handles the textarea display for "Other" selection on contractor form
 function change(obj) {
 
     var selectBox = obj;
