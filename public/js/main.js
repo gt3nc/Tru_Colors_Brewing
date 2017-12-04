@@ -199,3 +199,8 @@ function change(obj) {
         textarea.style.display = "none";
     }
 }
+
+// Reloads the page when menu logo is clicked
+function reloadHome() {
+    location.reload();
+}
