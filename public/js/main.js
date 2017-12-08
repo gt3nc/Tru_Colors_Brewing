@@ -202,5 +202,5 @@ function change(obj) {
 
 // Reloads the page when menu logo is clicked
 function reloadHome() {
-    location.reload();
+    location.reload(forceGet);
 }
