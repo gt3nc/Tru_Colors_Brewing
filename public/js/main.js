@@ -181,7 +181,7 @@ function ParseChar(sStr, sChar) {
 // Arrow scroll functions
 $(".arrow").click(function() {
     $('html,body').animate({
-        scrollTop: $(".page-about").offset().top
+        scrollTop: $(".page-events").offset().top
     }, 'slow')
 })
 
