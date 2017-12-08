@@ -200,7 +200,7 @@ function change(obj) {
     }
 }
 
-// Reloads the page when menu logo is clicked
+// Reloads the home page when menu logo is clicked
 function reloadHome() {
     location.reload(forceGet);
 }
