@@ -28,7 +28,7 @@ map "/careers" do
   }
 end
 
-map "/about" do
+map "/team" do
   run lambda { |env|
     [
       200,
@@ -36,7 +36,7 @@ map "/about" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/about-min.html', File::RDONLY)
+      File.open('public/team-min.html', File::RDONLY)
     ]
   }
 end

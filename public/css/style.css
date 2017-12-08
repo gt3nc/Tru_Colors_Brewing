@@ -493,15 +493,15 @@ label {
 
 /* TEAM / ABOUT PAGE */
 
-.page-about, .cans {
+.page-events, .cans {
 	padding-top: 5rem;
 }
 
-.page-about p {
+.page-events p {
 	margin-bottom: 3rem;
 }
 
-.page-about p:last-child {
+.page-events p:last-child {
 	margin-bottom: 5rem;
 }
 
