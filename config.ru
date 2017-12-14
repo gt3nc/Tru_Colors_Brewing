@@ -105,3 +105,11 @@ map "/thanks" do
     ]
   }
 end
+
+map "/shop" do
+  run lambda { |env|
+    [
+      302, {'Location' => "https://tru-colors-merchandise.myshopify.com/"}, []
+    ]
+  }
+end
