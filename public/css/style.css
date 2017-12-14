@@ -188,7 +188,7 @@ h5 small {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans";
 	font-size: 14pt;
 	line-height: 30px;
 	color: #292929;
@@ -270,7 +270,7 @@ p {
 }
 
 #navigation #main-menu a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans";
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
