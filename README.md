@@ -2,4 +2,6 @@
 
 ## Live website: https://www.trucolors.co
 
-## To view live github version: https://jeffberlin.github.io/Tru_Colors_Brewing/public/index.html
+# TRU Colors Brewing
+
+#### The site was built using HTML5, CSS, Bootstrap, Javascript, and JQuery. Hosted on Heroku and using Ruby to configure the backend.
