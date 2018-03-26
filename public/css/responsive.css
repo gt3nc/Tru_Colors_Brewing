@@ -16,6 +16,14 @@
 
 }
 
+@media (min-width: 991px) {
+
+	#mobile-menu {
+		display: none !important;
+	}
+	
+}
+
 @media (max-width: 991px) {
 
 	h1 {
