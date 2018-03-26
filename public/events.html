@@ -30,46 +30,103 @@
     <body>
 
         <!-- NAVIGATION -->
-        <nav class="navbar-fixed-top" id="navigation" style="top: 0px; opacity: 1;">
+        <nav class="navbar-fixed-top" id="navigation">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center menu-list" style="margin-right: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-lg-12 col-md-12 col-sm-12 menu-list">
                         <!-- LOGO -->
-                        <a class="brand pull-left" href="https://www.trucolors.co">
+                        <a class="brand" href="" onclick="reloadHome()">
                             <img style="height: 40px; margin-top: 7px; margin-bottom: 7px;" src="images/tru_colors_brewing_logo_long_min.png" alt="Tru Colors Logo">
-                        </a> 
+                        </a>
                         <!-- END LOGO -->
 
-                        <!-- MOBILE MENU BUTTON -->
-                        <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="bs-navbar" aria-expanded="false">
+                <!-- MOBILE MENU BUTTON -->
+                        <div class="mobile-menu-hamburger" onclick="clearDropdown()" data-toggle="collapse" data-target="#mobile-menu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
+
                         </div>
-                        <!-- END MOBILE MENU BUTTON -->
-                        
-                        <!-- MAIN MENU -->
-                        <ul id="main-menu" class="collapse navbar-collapse" style="margin-right: 11rem;">
-                            <li><a href="https://www.trucolors.co" class="home-menu">Home</a></li>
-                            <li><a href="/careers" class="careers-menu">Careers</a></li>
-                            <li><a href="/team" class="team-menu">Team</a></li>
-                            <!-- <li><a href="#page-about" class="help-menu">TCB Construction</a></li> -->
-                            <li><a href="" class="events-menu" style="color: #fcb514;">Events</a></li>
-                            <li><a href="/shop" class="shop-menu">Shop</a></li>
                             
-                            <!-- <li><a href="#page-contact" class="contact-menu">Contact</a></li> -->
+                        <ul class="collapse navbar-collapse" id="mobile-menu">
+                            
+                            <li class="mobile-nav-item">
+                                <a href="/">Home</a>
+                            </li>
+
+                            <li class="mobile-nav-item">
+
+                                <a class="nav-link" onclick="openFirstDropdown()">Apprenticeship ▾</a>
+                                <div class="dropdown-content" id="dropdown-apprenticeship">
+                                    <a href="apply.html">Apply</a>
+                                    <a href="contractor.html">Contractors</a>
+                                </div>
+
+                            </li>
+
+                            <li class="mobile-nav-item">
+                                <a href="team.html">Team</a>
+                            </li>
+
+                            <li class="mobile-nav-item">
+                                <a style="color: #fcb514;">Events</a>
+                            </li>
+
+                            <li class="mobile-nav-item">
+                                <a href="#">Blog</a>
+                            </li>
+                        
+                            <li class="mobile-nav-item">
+                                <a href="contact.html">Contact</a>
+                            </li>
+
                         </ul>
-                        <!-- SOCIAL ICONS -->
-                        <!-- <div class="social-icons hover-big pull-right">
-                            <a href="https://www.facebook.com/TRUcolorsbrewing/" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
-                            <a href="#" class="sicon-twitter"><i>Twitter</i></a>
-                            <a href="#" class="sicon-linkedin"><i>LinkedIn</i></a>
-                            <a href="#" class="sicon-mail"><i>Email</i></a>
-                        </div> -->
+
+                <!-- END MOBILE MENU BUTTON -->
+                        
+                    <!-- MAIN MENU -->
+                        <ul id="main-menu" class="page-nav">
+
+                            <li><a href="/" onclick="reloadHome()">Home</a></li>
+
+                            <!-- <li><a href="/beer" class="beer-menu">Our Beers</a></li> -->
+
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link">Apprenticeship ▾</a>
+                                <div class="dropdown-content">
+                                    <a href="apply.html">Apply</a>
+                                    <a href="contractor.html">Contractors</a>
+                                </div>
+
+                            </li>
+
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+
+                            <li>
+
+                                <a style="color: #fcb514;">Events</a>
+
+                            </li>
+
+                            <li><a href="#">Blog</a></li>
+                            
+                            <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+
                     </div>
+
                 </div>
+
             </div>
+
         </nav>
+        
+    <!-- END NAV BAR -->
 
         <div class="top-header text-center">
 
@@ -140,21 +197,21 @@
         <!-- FOOTER -->
 
         <div class="container-fluid footer">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-center">
 
-                <div class="col-xs-6">
-                    <p>&copy; 2017 TRU Colors Brewing Co.</p>
+                <div class="col-6 col-xs-12 order-xs-2">
+                    <p style="margin-bottom: 0;">&copy; 2017 TRU Colors Brewing Co.</p>
                 </div>
 
-                <div class="col-xs-6">
+                <div class="col-6 col-xs-12 order-xs-1">
 
-                    <a href="https://www.linkedin.com/company/24985404/" target="_blank"><img src="images/linkedin_black-min.png" class="img-responsive"></a>
+                    <a href="https://www.linkedin.com/company/24985404/" target="_blank"><img src="images/linkedin_black-min.png" class="img-fluid"></a>
 
-                    <a href="https://www.instagram.com/trucolorsbrewing/" target="_blank"><img src="images/instagram_black.png" class="img-responsive"></a>
+                    <a href="https://www.instagram.com/trucolorsbrewing/" target="_blank"><img src="images/instagram_black.png" class="img-fluid"></a>
 
-                    <a href="https://twitter.com/TruColorsBrew?lang=en" target="_blank"><img src="images/twitter_black-min.png" class="img-responsive"></a>
+                    <a href="https://twitter.com/TruColorsBrew?lang=en" target="_blank"><img src="images/twitter_black-min.png" class="img-fluid"></a>
 
-                    <a href="https://www.facebook.com/TRUcolorsbrewing/" target="_blank"><img src="images/facebook_black-min.png" class="img-responsive"></a>
+                    <a href="https://www.facebook.com/TRUcolorsbrewing/" target="_blank"><img src="images/facebook_black-min.png" class="img-fluid"></a>
 
                 </div>
 
