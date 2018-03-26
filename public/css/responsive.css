@@ -238,9 +238,9 @@
 
 @media (max-width: 545px) {
 
-	.divider p:first-child {
+	/*.divider p:first-child {
 		margin-bottom: 0; 
-	}
+	}*/
 }
 
 @media (max-width: 541px) {
