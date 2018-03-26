@@ -179,9 +179,9 @@ function ParseChar(sStr, sChar) {
 }
 
 // Arrow scroll functions
-$(".arrow").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".page-events").offset().top
+$("#arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#events-content").offset().top
     }, 'slow')
 })
 
@@ -203,4 +203,32 @@ function change(obj) {
 // Reloads the home page when menu logo is clicked
 function reloadHome() {
     location.reload(forceGet);
+}
+
+// Click function for dropdown
+var firstDrop = document.getElementById('dropdown-apprenticeship');
+// var thirdDrop = document.getElementById('dropdown-events');
+
+function openFirstDropdown() { 
+    if (firstDrop.style.display === 'block') {
+        firstDrop.style.display = 'none';
+    } else {
+        firstDrop.style.display = 'block';
+        // thirdDrop.style.display = 'none';
+    }
+}
+
+// function openThirdDropdown() {
+//     if (thirdDrop.style.display === 'block') {
+//         thirdDrop.style.display = 'none'; 
+//     } else {
+//         thirdDrop.style.display = 'block';
+//         firstDrop.style.display = 'none';
+//     }
+// }
+
+// Clears any open dropdown menus when menu is closed and reopened
+function clearDropdown() {
+    // thirdDrop.style.display = 'none';
+    firstDrop.style.display = 'none';
 }

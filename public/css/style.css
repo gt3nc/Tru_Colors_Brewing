@@ -197,7 +197,7 @@ p {
 
 /* BACKGROUND IMAGES */
 
-.construction-header, .header-image, .top-header, .page-careers {
+.header-image, .top-header, .page-careers {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -206,18 +206,19 @@ p {
 	background-position: center;
 }
 
-.construction-header {
+/*.construction-header {
 	background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
 	background-position: bottom;
 	height: 45vh;
-}
+}*/
 
 .page-careers {
 	background-image: url('../images/wilmington_min.jpg');
 }
 
 .header-image {
-	background-image: url('../images/tru_colors_main_background_grey_min.jpg');
+	/*background-image: url('../images/tru_colors_main_background_grey_min.jpg');*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0) 100%), url(../images/team_header_min.jpg);
 	margin-top: 54px;
 	height: 45vh;
 }
@@ -251,7 +252,7 @@ p {
 
 #navigation #main-menu {
     display: inline-block !important;
-    float: none;
+    float: right;
     margin: 0 auto;
     padding: 0px;
     position: relative;
@@ -269,7 +270,7 @@ p {
     list-style: none;
 }
 
-#navigation #main-menu a {
+#navigation #main-menu a, .navbar-collapse a {
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: bold;
@@ -285,7 +286,7 @@ p {
     display: block;
 }
 
-#navigation .mobile-menu {
+#navigation .mobile-menu-hamburger {
   display: none;
   float: right;
   padding: 7px 10px;
@@ -294,7 +295,7 @@ p {
   cursor: pointer;
 }
 
-#navigation .mobile-menu .icon-bar {
+#navigation .mobile-menu-hamburger .icon-bar {
   background-color: #292929;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -308,7 +309,7 @@ p {
   margin-top: 1px;
 }
 
-#navigation .mobile-menu:hover .icon-bar {
+#navigation .mobile-menu-hamburger:hover .icon-bar {
   background-color: #4e808e;
 }
 
@@ -316,6 +317,57 @@ p {
 	border-bottom: 1px solid #aaaaaa;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+.brand {
+	float: left;
+}
+
+.nav-link:hover {
+	cursor: default;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #ffffff;
+	min-width: 200px;
+	padding: .5rem 1rem .5rem 1rem;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.dropdown-content a {
+	display: block;
+	padding: .5rem !important;
+	border-bottom: 1px solid #e8e8e8;
+/*	margin-bottom: 1rem !important;*/
+}
+
+.dropdown-content a:last-child {
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+	padding-top: .5rem !important;
+}
+
+.dropdown-content a:hover, .page-nav li a:hover {
+	color: #fcb514 !important;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#mobile-menu {
+	list-style: none;
+	margin-top: 60px;
+	padding-left: 0;
+}
+
+.mobile-nav-item {
+	padding: .5rem;
+	border-bottom: 1px solid #e8e8e8;
 }
 
 /* FOOTER SECTION FOR ALL PAGES */
@@ -329,18 +381,18 @@ p {
 
 .footer p {
 	float: left;
-	vertical-align: middle;
 	font-size: 12pt;
 }
 
 .footer a {
 	float: right;
 	display: inline-block;
-	padding: .5rem;
+	
 }
 
-.footer a img {
-	height: 20px;
+.footer img {
+	height: 40px;
+	padding: .5rem;
 }
 
 /* TOP WELCOME SECTION */
@@ -366,14 +418,17 @@ p {
 	z-index: -100;
 }
 
-.divider img {
+/*.divider img {
 	margin-bottom: 3.8rem;
 	margin-top: 3.8rem;
+}*/
+
+.divider {
+	margin-top: 5rem;
 }
 
 .divider p {
 	letter-spacing: 2px;
-	margin-top: 5rem;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-weight: 800;
@@ -410,8 +465,8 @@ p {
 	height: 90px;
 }
 
-.page-info p {
-	margin-bottom: 3rem;
+.page-info p, .page-info span {
+	margin-bottom: 2.5rem;
 }
 
 /*.page-info p:last-child {
@@ -437,10 +492,10 @@ p {
 
 /* CAREERS PAGE */
 
-.construction-header img {
+/*.construction-header img {
 	padding-top: 20vh;
 	margin-top: 54px;
-}
+}*/
 
 .rules p, .page-careers p {
 	margin-bottom: 3rem !important;
@@ -491,7 +546,23 @@ label {
 	cursor: pointer;
 }
 
+/* APPLY PAGE */
+
+.apply-title, .hire-title {
+	margin-top: 3rem;
+	padding: 0 1rem 0 1rem;
+}
+
+.hire-info {
+	padding: 0 15px 0 15px;
+}
+
+
 /* TEAM PAGE */
+
+.img-circle {
+	border-radius: 50%;
+}
 
 .page-events, .cans {
 	padding-top: 5rem;
@@ -515,12 +586,8 @@ label {
 .page-team h1, .page-news p, .page-team p {
 	margin-bottom: 5rem;
 }
-.thumbnails {
-	list-style: none;
-	padding: 0;
-}
 
-.thumbnails li {
+.thumbnails {
 	margin-bottom: 4rem;
 }
 
@@ -611,224 +678,4 @@ label {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	margin-top: 54px;
-}
-
-/* RESPONSIVENESS */
-
-@media (max-width: 1200px) {
-
-	video {
-		display: none !important;
-	}
-
-	.page-welcome {
-		background-image: url('../images/tru_colors_background_image2.jpg');
-		height: 100vh;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
-
-}
-
-@media (max-width: 991px) {
-
-	h1 {
-		line-height: 60px;
-	}
-
-	#main-menu {
-		margin-right: 0 !important;
-	}
-
-	.page-info, .page-impact, .page-news, .page-team, .page-construction, .page-careers, {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-	}
-
-	.page-careers p {
-		margin-bottom: 2rem;
-	}
-
-	.footer {
-		margin-top: 2rem;
-	}
-
-}
-
-@media (max-width: 767px) {
-
-	h1 {
-		margin-top: 0 !important;
-	}
-
-	p {
-		font-size: 12pt;
-	}
-
-	.menu-list {
-		margin-right: 0 !important;
-	}
-
-	#navigation .mobile-menu {
-		display: block !important;
-	}
-
-	#navigation #main-menu {
-		display: none !important;
-		float: right;
-	}
-
-	#navigation #main-menu.collapsing, #navigation #main-menu.in {
-	    display: block !important;
-	    float: none;
-	    width: 100%;
-	    overflow: hidden;
-	}
-
-	.page-articles img {
-		margin-bottom: 3rem;
-	}
-
-	.page-news {
-		padding-bottom: 2rem;
-	}
-
-	.page-careers h1, .page-contractor h1 {
-		font-size: 30pt !important;
-	}
-
-	.submit-button {
-		font-size: 14pt;
-		padding: .8rem;
-	}
-
-	.cans img {
-		margin-bottom: 3rem;
-	}
-
-	.footer p, .footer a {
-		text-align: center;
-	}
-
-}
-
-@media (max-width: 687px) {
-
-	.page-construction {
-		margin-top: 0;
-	}
-
-	.rules p:last-child {
-		margin-bottom: 0 !important;
-	}
-
-}
-
-@media (max-width: 667px) {
-
-	.footer {
-		padding-right: 10rem !important;
-		padding-left: 10rem !important;
-	}
-
-}
-
-@media (max-width: 571px) {
-
-	.page-info h1, .contact-header h1 {
-		font-size: 36pt !important;
-	}
-
-}
-
-@media (max-width: 563px) {
-
-	#main-menu li {
-		margin: 10px 10px !important;
-	}
-
-	.divider-image {
-		width: 400px;
-	}
-
-	.footer {
-		padding-right: 3rem !important;
-		padding-left: 3rem !important;
-	}
-
-}
-
-@media (max-width: 541px) {
-
-	.tag {
-		margin-bottom: 1.5rem;
-	}
-
-	.tag img {
-		height: 70px;
-	}
-
-	.tag h5 {
-		font-size: 14pt !important;
-	}
-
-	.contact-header h1 {
-		margin-bottom: 2rem;
-	}
-
-}
-
-@media (max-width: 441px) {
-
-	.more-images {
-		font-size: 10pt;
-	}
-
-}
-
-@media (max-width: 407px) {
-
-	#construction-h1, .page-careers h1, .page-contractor h1 {
-		font-size: 30pt;
-		line-height: 50px;
-	}
-
-	.contact-header h1 {
-		font-size: 34pt !important;
-	}
-
-	.footer {
-		padding-right: 1rem !important;
-		padding-left: 1rem !important;
-	}
-
-}
-
-@media (max-width: 399px) {
-
-	.tag img {
-		height: 50px;
-	}
-
-	.tag h5 {
-		font-size: 12pt !important;
-	}
-}
-
-@media (max-width: 367px) {
-
-	.footer {
-		padding-right: .3rem !important;
-		padding-left: .3rem !important;
-	}
-
-	.footer p {
-		font-size: 8pt;
-	}
-
-	.footer a img {
-		height: 15px;
-	}
-
 }
