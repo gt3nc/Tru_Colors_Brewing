@@ -21,7 +21,7 @@
 	#mobile-menu {
 		display: none !important;
 	}
-	
+
 }
 
 @media (max-width: 991px) {
@@ -92,6 +92,11 @@
 		height: 70px;
 	}
 
+	.tag {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
 	#staff-rules {
 		font-size: 10pt !important;
 	}
@@ -109,6 +114,10 @@
 		padding-bottom: 3rem;
 	}
 
+	.page-info p {
+		margin-bottom: 1.5rem;
+	}
+
 	.page-news {
 		padding-bottom: 2rem;
 	}
@@ -120,10 +129,6 @@
 	.submit-button {
 		font-size: 14pt;
 		padding: .8rem;
-	}
-
-	.cans img {
-		margin-bottom: 3rem;
 	}
 
 	.footer p, .footer a {
@@ -184,10 +189,21 @@
 		margin-bottom: 1.5rem;
 	}
 
+	.tag {
+		display: none;
+	}
+
 	.dropdown-content {
 		left: 20%;
 	}
 
+}
+
+@media (min-width: 577px) {
+
+	.tru-images {
+		display: none;
+	}
 }
 
 @media (max-width: 571px) {
@@ -255,6 +271,14 @@
 		padding-right: 0 !important;
 	}
 
+	.tru-images img {
+		height: 50px;
+	}
+
+	.tru-images h5 {
+		font-size: 14px;
+	}
+
 }
 
 @media (max-width: 441px) {
@@ -285,6 +309,18 @@
 
 @media (max-width: 367px) {
 
+	.tru-images {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.tru-images img {
+		height: 40px;
+	}
+
+	.tru-images h5 {
+		font-size: 12px;
+	}
 	/*.footer {
 		padding-right: .3rem !important;
 		padding-left: .3rem !important;
