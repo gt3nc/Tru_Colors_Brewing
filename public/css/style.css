@@ -213,8 +213,8 @@ p {
 .header-image {
 	/*background-image: url('../images/tru_colors_main_background_grey_min.jpg');*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0) 100%), url(../images/tru_colors_team_header_min.jpg);
-	margin-top: 54px;
-	height: 45vh;
+	/*margin-top: 54px;*/
+	height: 100vh;
 }
 
 .top-header {
