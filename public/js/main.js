@@ -185,6 +185,12 @@ $("#arrow").click(function() {
     }, 'slow')
 })
 
+$("#team-arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".page-team").offset().top
+    }, 'slow')
+})
+
 // Handles the textarea display for "Other" selection on contractor form
 function change(obj) {
 
