@@ -44,16 +44,9 @@
 		right: 50%;
 	}
 
-	/*#navigation #main-menu.collapsing, #navigation #main-menu.in {
-	    display: block !important;
-	    float: none;
-	    width: 100%;
-	    overflow: hidden;
-	}*/
-
-	.page-info, .page-impact, .page-news, .page-team, .page-construction, .page-careers, {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+	.page-info, .page-impact, .page-news, .page-construction, .page-careers {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
 	}
 
 	.page-careers p {
@@ -72,6 +65,7 @@
 		padding-left: .5rem !important;
 		padding-right: .5rem !important;
 	}
+
 }
 
 @media (max-width: 767px) {
@@ -114,16 +108,28 @@
 		padding-bottom: 3rem;
 	}
 
-	.page-info p {
+	.page-info p, .page-events p, .page-events p:last-child {
 		margin-bottom: 1.5rem;
 	}
 
-	.page-news {
+	.page-news, .page-events {
 		padding-bottom: 2rem;
 	}
 
 	.page-careers h1, .page-contractor h1 {
 		font-size: 30pt !important;
+	}
+
+	.page-team {
+		padding-top: 3rem !important;
+	}
+
+	.page-team h1 {
+		margin-bottom: 3rem;
+	}
+
+	.rules p {
+		margin-bottom: 1.6rem !important;
 	}
 
 	.submit-button {
@@ -164,15 +170,6 @@
 	}
 
 }
-
-/*@media (max-width: 667px) {
-
-	.footer {
-		padding-right: 10rem !important;
-		padding-left: 10rem !important;
-	}
-
-}*/
 
 @media (max-width: 576px) {
 
@@ -229,25 +226,9 @@
 		width: 400px;
 	}
 
-	/*.footer {
-		padding-right: 3rem !important;
-		padding-left: 3rem !important;
-	}*/
-
-}
-
-@media (max-width: 545px) {
-
-	/*.divider p:first-child {
-		margin-bottom: 0; 
-	}*/
 }
 
 @media (max-width: 541px) {
-
-	/*.tag {
-		margin-bottom: 1.5rem;
-	}*/
 
 	.contact-header h1 {
 		margin-bottom: 2rem;
@@ -257,12 +238,12 @@
 
 @media (max-width: 473px) {
 
-	.apply-title h1 {
+	.apply-title h1, .hire-title h1 {
 		font-size: 32pt;
 		margin-bottom: 1.5rem;
 	}
 
-	.apply-title {
+	.apply-title, .hire-title {
 		margin-top: 1.5rem;
 	}
 
@@ -300,11 +281,6 @@
 		font-size: 34pt !important;
 	}
 
-	/*.footer {
-		padding-right: 1rem !important;
-		padding-left: 1rem !important;
-	}*/
-
 }
 
 @media (max-width: 367px) {
@@ -321,10 +297,6 @@
 	.tru-images h5 {
 		font-size: 12px;
 	}
-	/*.footer {
-		padding-right: .3rem !important;
-		padding-left: .3rem !important;
-	}*/
 
 	.footer p {
 		font-size: 14px;

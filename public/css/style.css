@@ -206,12 +206,6 @@ p {
 	background-position: center;
 }
 
-/*.construction-header {
-	background-image: url('../images/tru_colors_brewing_careers_background_min3.jpg');
-	background-position: bottom;
-	height: 45vh;
-}*/
-
 .page-careers {
 	background-image: url('../images/wilmington_min.jpg');
 }
@@ -370,6 +364,10 @@ p {
 	border-bottom: 1px solid #e8e8e8;
 }
 
+.mobile-nav-item:last-child {
+	border-bottom: none;
+}
+
 /* FOOTER SECTION FOR ALL PAGES */
 
 .footer {
@@ -513,11 +511,6 @@ p {
 
 /* CAREERS PAGE */
 
-/*.construction-header img {
-	padding-top: 20vh;
-	margin-top: 54px;
-}*/
-
 .rules p, .page-careers p {
 	margin-bottom: 3rem !important;
 }
@@ -584,17 +577,7 @@ label {
 	border-radius: 50%;
 }
 
-.page-events {
-	padding-top: 5rem;
-}
 
-.page-events p {
-	margin-bottom: 3rem;
-}
-
-.page-events p:last-child {
-	margin-bottom: 5rem;
-}
 
 /* TEAM INFO SECTION */
 
@@ -607,6 +590,23 @@ label {
 }
 
 /* EVENTS PAGE */
+
+.battle-info {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.page-events {
+	padding-top: 5rem;
+}
+
+.page-events p {
+	margin-bottom: 3rem;
+}
+
+.page-events p:last-child {
+	margin-bottom: 5rem;
+}
 
 .arrow {
   opacity: .8;
