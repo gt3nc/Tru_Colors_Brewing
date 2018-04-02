@@ -215,6 +215,18 @@
 	}
 }
 
+@media (max-width: 575px) {
+
+	.construction-header {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.hire-title h1, .apply-title h1 {
+		font-size: 28pt !important;
+	}
+}
+
 @media (max-width: 571px) {
 
 	.page-info h1, .contact-header h1 {
