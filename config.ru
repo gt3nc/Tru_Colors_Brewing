@@ -15,7 +15,7 @@ map "/" do
   }
 end
 
-map "/careers" do
+map "/apply" do
   run lambda { |env|
     [
       200,
@@ -23,7 +23,20 @@ map "/careers" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/careers.html', File::RDONLY)
+      File.open('public/apply.html', File::RDONLY)
+    ]
+  }
+end
+
+map "/contractors" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/contractors.html', File::RDONLY)
     ]
   }
 end
@@ -75,7 +88,7 @@ map "/contractor" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/contractor.html', File::RDONLY)
+      File.open('public/contractor-submitted.html', File::RDONLY)
     ]
   }
 end
@@ -88,7 +101,7 @@ map "/apprentice" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/apprentice.html', File::RDONLY)
+      File.open('public/apprentice-submitted.html', File::RDONLY)
     ]
   }
 end

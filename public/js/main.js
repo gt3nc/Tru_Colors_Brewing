@@ -235,6 +235,5 @@ function openFirstDropdown() {
 
 // Clears any open dropdown menus when menu is closed and reopened
 function clearDropdown() {
-    // thirdDrop.style.display = 'none';
     firstDrop.style.display = 'none';
 }

@@ -212,6 +212,20 @@
 		padding-top: 3rem;
 	}
 
+	.contact-header h1, .contact-header p {
+		margin-bottom: 1.5rem;
+	}
+
+	#team-header-first {
+		font-size: 16pt;
+		margin-left: -227px;
+	}
+
+	#team-header-next {
+		font-size: 76pt;
+		margin-top: -2rem;
+	}
+
 }
 
 @media (max-width: 571px) {
@@ -231,14 +245,6 @@
 
 	.divider-image {
 		width: 400px;
-	}
-
-}
-
-@media (max-width: 541px) {
-
-	.contact-header h1 {
-		margin-bottom: 2rem;
 	}
 
 }
