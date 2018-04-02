@@ -208,6 +208,10 @@
 		font-size: 28pt !important;
 	}
 
+	.page-events {
+		padding-top: 3rem;
+	}
+
 }
 
 @media (max-width: 571px) {
@@ -241,7 +245,7 @@
 
 @media (max-width: 473px) {
 
-	.apply-title h1, .hire-title h1 {
+	.apply-title h1, .hire-title h1, .page-events h1 {
 		margin-bottom: 1.5rem;
 	}
 
