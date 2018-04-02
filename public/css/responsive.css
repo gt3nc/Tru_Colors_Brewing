@@ -44,13 +44,9 @@
 		right: 50%;
 	}
 
-	.page-info, .page-impact, .page-news, .page-construction, .page-careers {
+	.page-info, .page-news, .page-team, .contact-us {
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
-	}
-
-	.page-careers p {
-		margin-bottom: 2rem;
 	}
 
 	.footer {
@@ -72,6 +68,7 @@
 
 	h1 {
 		margin-top: 0 !important;
+		font-size: 32pt !important;
 	}
 
 	p {
@@ -100,7 +97,7 @@
 	}
 
 	.page-articles img {
-		margin-bottom: 3rem;
+		margin-bottom: 1.5rem;
 	}
 
 	.page-info {
@@ -110,14 +107,6 @@
 
 	.page-info p, .page-events p, .page-events p:last-child {
 		margin-bottom: 1.5rem;
-	}
-
-	.page-news, .page-events {
-		padding-bottom: 2rem;
-	}
-
-	.page-careers h1, .page-contractor h1 {
-		font-size: 30pt !important;
 	}
 
 	.page-team {
@@ -161,10 +150,6 @@
 
 @media (max-width: 687px) {
 
-	.page-construction {
-		margin-top: 0;
-	}
-
 	.rules p:last-child {
 		margin-bottom: 0 !important;
 	}
@@ -202,10 +187,6 @@
 		left: 20%;
 	}
 
-	/*h1 {
-		font-size: 36pt;
-	}*/
-
 }
 
 @media (min-width: 577px) {
@@ -213,6 +194,7 @@
 	.tru-images {
 		display: none;
 	}
+
 }
 
 @media (max-width: 575px) {
@@ -222,16 +204,13 @@
 		padding-right: 0 !important;
 	}
 
-	.hire-title h1, .apply-title h1 {
+	h1 {
 		font-size: 28pt !important;
 	}
+
 }
 
 @media (max-width: 571px) {
-
-	.page-info h1, .contact-header h1 {
-		font-size: 36pt !important;
-	}
 
 	.contact-header p {
 		padding-right: 1rem;
@@ -263,7 +242,6 @@
 @media (max-width: 473px) {
 
 	.apply-title h1, .hire-title h1 {
-		font-size: 32pt;
 		margin-bottom: 1.5rem;
 	}
 
@@ -290,19 +268,6 @@
 
 	.more-images {
 		font-size: 10pt;
-	}
-
-}
-
-@media (max-width: 407px) {
-
-	#construction-h1, .page-careers h1, .page-contractor h1 {
-		font-size: 30pt;
-		line-height: 50px;
-	}
-
-	.contact-header h1 {
-		font-size: 34pt !important;
 	}
 
 }
