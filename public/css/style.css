@@ -224,7 +224,7 @@ p {
 
 .header-image h2 {
 	/*margin-top: 45vh;*/
-	font-family: 'industry', serif;
+	font-family: industry;
 	opacity: .8;
 	letter-spacing: .75px;
 	color: #7d7d7d;
