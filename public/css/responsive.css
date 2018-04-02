@@ -44,7 +44,7 @@
 		right: 50%;
 	}
 
-	.page-info, .page-news, .page-team, .contact-us {
+	.page-info, .page-news, .contact-us {
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
 	}
@@ -208,7 +208,7 @@
 		font-size: 28pt !important;
 	}
 
-	.page-events {
+	.page-events, .page-team {
 		padding-top: 3rem;
 	}
 
