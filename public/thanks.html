@@ -13,122 +13,58 @@
         </script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="Description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared to change the community.">
+		<meta name="Description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared towards changing the community.">
 		<meta name="Keywords" content="tru, true, colors, brewing, brewery, startup, wilmington, north carolina, gangs, gang, beer, company, co, tru colors">
-		<meta property="og:image" content="tru_colors_brewing_logo_long.png">
+		<meta property="og:title" content="TRU Colors Brewing Co." />
+		<meta property="og:description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared towards changing the community." />
+		<meta property="og:url" content="https://www.trucolors.co" />
+		<meta property="og:image" content="http://www.trucolors.co/images/tru_colors_logo_200x200_min.png" />
+		<meta property="og:type" content="image/png" />	
 		<link rel="icon" type="image/png" href="images/favicon_32x32.png">
 		<title>TRU Colors Brewing Co.</title>
 		<!-- Latest compiled and minified CSS -->
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    	<link rel="stylesheet" href="css/style.css" type="text/css">
-    	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" async crossorigin="anonymous">
+    	<link rel="stylesheet" href="css/style.css" async defer>
     </head>
     <body>
 
     	<!-- NAVIGATION -->
 	    <nav class="navbar-fixed-top" id="navigation">
 	        <div class="container">
-	            <div class="row justify-content-between">
-	                <div class="col-lg-12 col-md-12 col-sm-12 menu-list">
+	            <div class="row">
+	                <div class="col-md-12 text-center menu-list" style="margin-right: 10rem;">
 	                    <!-- LOGO -->
-	                    <a class="brand" href="/" onclick="reloadHome()">
+	                    <a class="brand pull-left" href="https://jeffberlin.github.io/TRU_Colors_Brewing_original/">
 	                        <img style="height: 40px; margin-top: 7px; margin-bottom: 7px;" src="images/tru_colors_brewing_logo_long_min.png" alt="Tru Colors Logo">
 	                    </a>
 	                    <!-- END LOGO -->
 
-	            <!-- MOBILE MENU BUTTON -->
-	                    <div class="mobile-menu-hamburger" onclick="clearDropdown()" data-toggle="collapse" data-target="#mobile-menu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-
+	                    <!-- MOBILE MENU BUTTON -->
+	                    <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="bs-navbar" aria-expanded="false">
 	                        <span class="icon-bar"></span>
 	                        <span class="icon-bar"></span>
 	                        <span class="icon-bar"></span>
-
 	                    </div>
-	                    	
-                    	<ul class="collapse navbar-collapse" id="mobile-menu">
-                    		
-                    		<li class="mobile-nav-item">
-                    			<a href="/">Home</a>
-                    		</li>
-
-                    		<li class="mobile-nav-item">
-
-	                        	<a class="nav-link" onclick="openFirstDropdown()">Apprenticeship ▾</a>
-	                        	<div class="dropdown-content" id="dropdown-apprenticeship">
-	                        		<a href="/apply">Apply</a>
-	                        		<a href="/contractors">Contractors</a>
-	                        	</div>
-
-    						</li>
-
-	                        <li class="mobile-nav-item">
-	                        	<a href="/team">Team</a>
-	                        </li>
-
-	                        <li class="mobile-nav-item">
-	                        	<a href="/events">Events</a>
-	                        </li>
-
-	                        <!-- <li class="mobile-nav-item">
-	                        	<a href="#">Blog</a>
-	                        </li> -->
-                        
-                        	<li class="mobile-nav-item">
-                        		<a href="/contact">Contact</a>
-                        	</li>
-
-                    	</ul>
-
-                <!-- END MOBILE MENU BUTTON -->
+	                    <!-- END MOBILE MENU BUTTON -->
 	                    
-	                <!-- MAIN MENU -->
-	                    <ul id="main-menu" class="page-nav">
-
-	                        <li><a href="/" onclick="reloadHome()">Home</a></li>
-
-	                        <!-- <li><a href="/beer" class="beer-menu">Our Beers</a></li> -->
-
-	                        <li class="nav-item dropdown">
-
-	                        	<a class="nav-link">Apprenticeship ▾</a>
-	                        	<div class="dropdown-content">
-	                        		<a href="/apply">Apply</a>
-	                        		<a href="/contractors">Contractors</a>
-	                        	</div>
-
-    						</li>
-
-	                        <li>
-	                        	<a href="/team">Team</a>
-	                        </li>
-
-	                        <li>
-
-	                        	<a href="/events">Events</a>
-
-	                        </li>
-
-	                        <!-- <li><a href="#">Blog</a></li> -->
-	                        
-	                        <li><a href="/contact">Contact</a></li>
-
+	                    <!-- MAIN MENU -->
+	                    <ul id="main-menu" class="collapse navbar-collapse" style="margin-right: 11rem;">
+	                        <li><a href="https://jeffberlin.github.io/TRU_Colors_Brewing_original/" class="home-menu">Home</a></li>
+	                        <li><a href="careers-min.html" class="careers-menu">Careers</a></li>
+	                        <li><a href="team-min.html" class="team-menu">Team</a></li>
+	                        <li><a href="events-min.html" class="events-menu">Events</a></li>
+	                        <!-- <li><a href="/shop" class="shop-menu">Shop</a></li> -->
 	                    </ul>
-
 	                </div>
-
 	            </div>
-
 	        </div>
-
 	    </nav>
-	    
-    <!-- END NAV BAR -->
 
 	    <div class="container-fluid text-center thanks">
 
 	    	<div class="row">
 
-	    		<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1">
+	    		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 
 		    		<p>Thank you for your submission!</p>
 
@@ -140,10 +76,10 @@
 
 	    </div>
 
-	<!-- Latest compiled and minified JavaScript -->
-    	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	    <!-- Latest compiled and minified JavaScript -->
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<script src="js/main.js"></script>
 

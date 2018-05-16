@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
       "http://www.w3.org/TR/html4/strict.dtd">
-<html prefix="og: http://ogp.me/ns#">
+<html>
 	<head profile="http://www.w3.org/TR/html4/strict.dtd">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109210388-1"></script>
@@ -15,150 +15,79 @@
         </script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="Description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared to change the community.">
+		<meta name="Description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared towards changing the community.">
 		<meta name="Keywords" content="tru, true, colors, brewing, brewery, startup, wilmington, north carolina, gangs, gang, beer, company, co, tru colors">
-		<meta property="og:title" content="TRU Colors Brewing Co." />
-		<meta property="og:description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared to change the community." />
-		<meta property="og:url" content="https://www.trucolors.co" />
-		<meta property="og:image" content="http://www.trucolors.co/images/tru_colors_logo_200x200_min.png" />
-		<meta property="og:type" content="image/png" />	
+		<meta prefix="og: http://ogp.me/ns#" property="og:title" content="TRU Colors Brewing Co." />
+		<meta prefix="og: http://ogp.me/ns#" property="og:description" content="TRU Colors Brewing is a startup in Wilmington, North Carolina that is geared towards changing the community." />
+		<meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://jeffberlin.github.io/TRU_Colors_Brewing_original/" />
+		<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.trucolors.co/images/tru_colors_logo_200x200_min.png" />
+		<meta prefix="og: http://ogp.me/ns#" property="og:type" content="image/png" />	
 		<link rel="icon" type="image/png" href="images/favicon_32x32.png">
 		<title>TRU Colors Brewing Co.</title>
 		<!-- Latest compiled and minified CSS -->
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    	<link rel="stylesheet" href="https://use.typekit.net/sdr4cot.css">
-    	<link rel="stylesheet" href="css/style.css" type="text/css">
-    	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" async crossorigin="anonymous">
+    	<link rel="stylesheet" href="css/style.css" async defer>
     </head>
     <body>
 
     	<!-- NAVIGATION -->
 	    <nav class="navbar-fixed-top" id="navigation">
 	        <div class="container">
-	            <div class="row justify-content-between">
-	                <div class="col-lg-12 col-md-12 col-sm-12 menu-list">
+	            <div class="row">
+	                <div class="col-md-12 text-center menu-list" style="margin-right: 10rem;">
 	                    <!-- LOGO -->
-	                    <a class="brand" href="" onclick="reloadHome()">
+	                    <a class="brand pull-left" href="" onclick="reloadHome()">
 	                        <img style="height: 40px; margin-top: 7px; margin-bottom: 7px;" src="images/tru_colors_brewing_logo_long_min.png" alt="Tru Colors Logo">
 	                    </a>
 	                    <!-- END LOGO -->
 
-	            <!-- MOBILE MENU BUTTON -->
-	                    <div class="mobile-menu-hamburger" onclick="clearDropdown()" data-toggle="collapse" data-target="#mobile-menu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-
+	                    <!-- MOBILE MENU BUTTON -->
+	                    <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="bs-navbar" aria-expanded="false">
 	                        <span class="icon-bar"></span>
 	                        <span class="icon-bar"></span>
 	                        <span class="icon-bar"></span>
-
 	                    </div>
-	                    	
-                    	<ul class="collapse navbar-collapse" id="mobile-menu">
-                    		
-                    		<li class="mobile-nav-item">
-                    			<a style="color: #fcb514;">Home</a>
-                    		</li>
-
-                    		<li class="mobile-nav-item">
-
-	                        	<a class="nav-link" onclick="openFirstDropdown()">Apprenticeship ▾</a>
-	                        	<div class="dropdown-content" id="dropdown-apprenticeship">
-	                        		<a href="/apply">Apply</a>
-	                        		<a href="/contractors">Contractors</a>
-	                        	</div>
-
-    						</li>
-
-	                        <li class="mobile-nav-item">
-	                        	<a href="/team">Team</a>
-	                        </li>
-
-	                        <li class="mobile-nav-item">
-	                        	<a href="/events">Events</a>
-	                        </li>
-
-	                        <!-- <li class="mobile-nav-item">
-	                        	<a href="#">Blog</a>
-	                        </li> -->
-                        
-                        	<li class="mobile-nav-item">
-                        		<a href="/contact">Contact</a>
-                        	</li>
-
-                    	</ul>
-
-                <!-- END MOBILE MENU BUTTON -->
+	                    <!-- END MOBILE MENU BUTTON -->
 	                    
-	                <!-- MAIN MENU -->
-	                    <ul id="main-menu" class="page-nav">
-
-	                        <li><a href="" onclick="reloadHome()" style="color: #fcb514;">Home</a></li>
-
-	                        <!-- <li><a href="/beer" class="beer-menu">Our Beers</a></li> -->
-
-	                        <li class="nav-item dropdown">
-
-	                        	<a class="nav-link">Apprenticeship ▾</a>
-	                        	<div class="dropdown-content">
-	                        		<a href="/apply">Apply</a>
-	                        		<a href="/contractors">Contractors</a>
-	                        	</div>
-
-    						</li>
-
-	                        <li>
-	                        	<a href="/team">Team</a>
-	                        </li>
-
-	                        <li>
-
-	                        	<a href="/events">Events</a>
-
-	                        </li>
-
-	                        <!-- <li><a href="#">Blog</a></li> -->
-	                        
-	                        <li><a href="/contact">Contact</a></li>
-
+	                    <!-- MAIN MENU -->
+	                    <ul id="main-menu" class="collapse navbar-collapse" style="margin-right: 11rem;">
+	                        <li><a href="" class="home-menu" onclick="reloadHome()" style="color: #fcb514;">Home</a></li>
+	                        <li><a href="careers-min.html" class="careers-menu">Careers</a></li>
+	                        <li><a href="team-min.html" class="team-menu">Team</a></li>
+	                        <li><a href="events-min.html" class="events-menu">Events</a></li>
+	                        <!-- <li><a href="/shop" class="shop-menu">Shop</a></li> -->
 	                    </ul>
-
 	                </div>
-
 	            </div>
-
 	        </div>
-
 	    </nav>
-
-    <!-- END NAV BAR -->
 
     	<!-- WELCOME SECTION -->
 
     	<div class="container-fluid page-welcome">
 
-<!-- per bootstrap 4, remove hidden class - display: none; via CSS -->
-
-    		<video autoplay loop id="video-background" muted plays-inline onload="enableLoop()" class="hidden-md hidden-sm hidden-xs">
+    		<video preload="preload" autoplay autoplay="autoplay" loop id="video-background" muted plays-inline onload="enableLoop()" class="hidden-md hidden-sm hidden-xs">
 				<source src="images/tru_colors_background_video.mp4" type="video/mp4">
 			</video>
 
     		<div class="row text-center">
 
-    			<div class="col-lg-10 offset-lg-1 header">
+    			<div class="col-lg-10 col-lg-offset-1 header">
 
     				<img src="images/tru_colors_logo_200x200_min.png" width="140" height="140" alt="Tru Colors logo"">
 
     				<div class="divider">
 
-    					<p>Bold beer and honest conversations</p><p>brewed daily</p>
+    					<p>Where bold beer and honest conversations are brewed daily</p>
 
-    					<p id="under-tagline">– Under Construction –</p>
+    					<p style="font-size: 12pt; margin-top: 2rem;">Coming H1 2018</p>
 
     					<div class="social-icons sicon-white bordered">
 	                        <a href="https://www.facebook.com/TRUcolorsbrewing/" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
 	                        <a href="https://twitter.com/TruColorsBrew?lang=en" class="sicon-twitter" target="_blank"><i>Twitter</i></a>
 	                        <a href="https://www.instagram.com/trucolorsbrewing/" class="sicon-instagram" target="_blank"><i>Instagram</i></a>
 	                        <a href="https://www.linkedin.com/company/24985404/" class="sicon-linkedin" target="_blank"><i>LinkedIn</i></a>
-	                        <!-- <a href="/contact" class="sicon-mail"><i>Email</i></a> -->
+	                        <a href="contact-min.html" class="sicon-mail"><i>Email</i></a>
                     	</div>
 
     				</div>
@@ -175,61 +104,34 @@
 
 	    	<div class="container">
 
-				<div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 tcb-info">
+				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
 
 					<h1>What is TRU Colors?</h1>
 
 					<p style="margin-bottom: 0;">TRU Colors Brewing is not your average brewery. Sure, we make great beer, but being TRU is a way of life. We represent taking the path less traveled. We represent opportunity. We represent unity. We plan to show this in our beers, our restaurants, and most importantly, our actions.</p>
-
-				</div>
 					
-				<div class="tag row justify-content-center text-center">
+					<div class="tag row text-center">
 
-					<div class="col-lg-3 col-md-4 col-sm-4">
-						<img class="img-fluid" src="images/t_logo.png">
-						<h5>Truth</h5>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img class="center-block" src="images/check_mark.png">
+							<h5>Truth</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img class="center-block" src="images/unity.png">
+							<h5>Unity</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img class="center-block" src="images/beer.png">
+							<h5>Great Beer</h5>
+						</div>
+
 					</div>
 
-					<div class="col-lg-3 col-md-4 col-sm-4">
-						<img class="img-fluid" src="images/r_logo.png">
-						<h5>Responsibility</h5>
-					</div>
+					<p>In June of 2017, 11 gang leaders came together to form TRU Colors Brewing and put a stop to the ongoing gang violence. We’re made up of active Bloods, Crips, and Growth and Development (TCB employees must remain in the gangs to influence their members) who are driving gang culture to be a positive influence in communities and inspire others to stop the violence.</p>
 
-					<div class="col-lg-3 col-md-4 col-sm-4">
-						<img class="img-fluid" src="images/u_logo.png">
-						<h5>Unity</h5>
-					</div>
-
-				</div>
-
-				<div class="tru-images row justify-content-center text-center">
-
-					<div>
-						<img class="img-fluid" src="images/t_logo.png">
-						<h5>Truth</h5>
-					</div>
-
-					<div>
-						<img class="img-fluid" src="images/r_logo.png">
-						<h5>Responsibility</h5>
-					</div>
-
-					<div>
-						<img class="img-fluid" src="images/u_logo.png">
-						<h5>Unity</h5>
-					</div>
-
-				</div>
-
-				<div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 tcb-info">
-
-					<p>In June of 2017, 11 gang leaders came together to form TRU Colors Brewing and put a stop to gang violence in Wilmington. Active Bloods, Crips, and Growth & Development (formerly Gangster Disciples) make up the venture. We are all striving to shift gang culture into a positive influence in our communities as well as inspiring others to end the violence.</p>
-
-					<p id="staff-rules" style="font-size: 1em;"><strong>*TCB staff must remain affiliated to keep influencing other members*</strong></p>
-
-					<p><strong>The result?</strong> Not one (zero, zilch, none) shot fired by any of the nearly 700 members associated with TCB gangs since inception on July 5th, 2017. Some people have gotten fired, arrested, and new leaders have stepped up to the plate - all in the mission of building a solid business and unique brand, with a kick ass crew.</p>
-
-					<p><strong>March 2018 - </strong>A site for the brewery is negotiated, refitting of the buildings has begun, and 11 key players have grown into their roles as digital marketing specialists, project managers, brew masters and apprentices. An exclusive selection of craft beers featuring daring IPAs, smooth Lagers, and proud Stouts are under development. A marketing strategy, with logos and labels, is finalized. The grand opening of TRU Colors Brewing is slated for the bottom half of 2019.</p>
+					<p><strong>The result?</strong> Not one (zero, zilch, none) shot fired by any of the nearly 600 members associated with TCB gangs since inception in July 5th, 2017.</p>
 
 	        	</div>
 
@@ -237,11 +139,45 @@
 
         </div>
 
+        <!-- IMPACT SECTION -->
+
+        <!-- <div class="page-impact">
+
+        	<div class="container-fluid"> -->
+
+				<!-- <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"> -->
+
+				<!-- <div class="align-impact">
+
+					<div class="col-lg-6 col-lg-offset-1 col-md-6">
+
+						<h1 style="text-align: left;">Impact on Gang Violence</h1>
+
+						<p>In June of 2017, 11 gang leaders came together to from Tru Colors Brewing and put a stop to the ongoing gang violence. We’re made up of active Bloods, Crips, and Gangster Disciples (TCB employees must remain in the gangs to influence their members) who are driving gang culture to be a positive influence in communities and inspire others to stop the violence.</p>
+
+						<p>The result? Not one (zero, zilch, none) shot fired by any of the nearly 700 members associated with TCB gangs since inception in July 5th, 2017.</p>
+
+		        	</div>
+
+		        	<div class="col-lg-3 col-lg-offset-1 col-md-6">
+		        		
+		        		<img class="img-responsive center-block thumbnail" src="images/tru_colors_bandanas_min.jpg">
+		        	
+		        	</div>
+
+		        </div>
+
+	        </div>
+
+        </div> -->
+
     	<!-- NEWS SECTION -->
 
     	<div class="page-news text-center">
 
     		<div class="container">
+
+				<!-- <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"> -->
 
 				<h4 class="line-divider-inline">TCB in the News</h4>
 
@@ -249,25 +185,25 @@
 
 	        		<div class="col-md-3 col-sm-3 col-xs-6">
 
-	        			<a href="http://www.wilmingtonbiz.com/more_news/2017/11/02/can_a_craft_brewery_solve_gang_violence/16743?utm_source=MadMimi&utm_medium=email&utm_content=IN-DEPTH%3A+Can+a+craft+brewery+solve+gang+violence%3F&utm_campaign=20171102_m142457101_IN-DEPTH%3A+Can+a+craft+brewery+solve+gang+violence%3F&utm_term=Click+here+for+more" target="_blank"><img class="img-fluid" src="images/wilmingtonbiz.png"></a>
+	        			<a href="http://www.wilmingtonbiz.com/more_news/2017/11/02/can_a_craft_brewery_solve_gang_violence/16743?utm_source=MadMimi&utm_medium=email&utm_content=IN-DEPTH%3A+Can+a+craft+brewery+solve+gang+violence%3F&utm_campaign=20171102_m142457101_IN-DEPTH%3A+Can+a+craft+brewery+solve+gang+violence%3F&utm_term=Click+here+for+more" target="_blank"><img class="img-responsive center-block" src="images/wilmingtonbiz.png"></a>
 
 	        		</div>
 
 	        		<div class="col-md-3 col-sm-3 col-xs-6">
 
-	        			<a href="http://www.tylercralle.com/2017/11/07/george-taylor-on-tru-colors-brewery/" target="_blank"><img class="img-fluid" src="images/wave.png"></a>
+	        			<a href="http://www.tylercralle.com/2017/11/07/george-taylor-on-tru-colors-brewery/" target="_blank"><img class="img-responsive center-block" src="images/wave.png"></a>
 
 	        		</div>
 
 	        		<div class="col-md-3 col-sm-3 col-xs-6">
 
-	        			<a href="http://www.starnewsonline.com/news/20171103/brewing-up-solution-to-gang-violence" target="_blank"><img class="img-fluid" src="images/starnewsonline_logo.png"></a>
+	        			<a href="http://www.starnewsonline.com/news/20171103/brewing-up-solution-to-gang-violence" target="_blank"><img class="img-responsive center-block" src="images/starnewsonline_logo.png"></a>
 
 	        		</div>
 
 	        		<div class="col-md-3 col-sm-3 col-xs-6">
 
-	        			<a href="http://www.wect.com/story/36721564/rival-gang-members-brew-up-plan-to-end-violence-and-start-business" target="_blank"><img class="img-fluid" src="images/wect.png"></a>
+	        			<a href="http://www.wect.com/story/36721564/rival-gang-members-brew-up-plan-to-end-violence-and-start-business" target="_blank"><img class="img-responsive center-block" src="images/wect.png"></a>
 
 	        		</div>
 
@@ -280,32 +216,29 @@
         <!-- FOOTER -->
 
         <div class="container-fluid footer">
-			<div class="row justify-content-between align-items-center">
+			<div class="row">
+				<div class="col-xs-6 col-xs-push-6">
+					<a href="contact-min.html"><img src="images/mail_black-min.png" class="img-responsive"></a>
 
-				<div class="col-6 col-xs-12 order-xs-2">
-					<p style="margin-bottom: 0;">&copy; 2017 TRU Colors Brewing Co.</p>
+					<a href="https://www.linkedin.com/company/24985404/" target="_blank"><img src="images/linkedin_black-min.png" class="img-responsive"></a>
+
+					<a href="https://www.instagram.com/trucolorsbrewing/" target="_blank"><img src="images/instagram_black.png" class="img-responsive"></a>
+
+					<a href="https://twitter.com/TruColorsBrew?lang=en" target="_blank"><img src="images/twitter_black-min.png" class="img-responsive"></a>
+
+					<a href="https://www.facebook.com/TRUcolorsbrewing/" target="_blank"><img src="images/facebook_black-min.png" class="img-responsive"></a>
 				</div>
 
-				<div class="col-6 col-xs-12 order-xs-1">
-
-					<a href="https://www.linkedin.com/company/24985404/" target="_blank"><img src="images/linkedin_black-min.png" class="img-fluid"></a>
-
-					<a href="https://www.instagram.com/trucolorsbrewing/" target="_blank"><img src="images/instagram_black.png" class="img-fluid"></a>
-
-					<a href="https://twitter.com/TruColorsBrew?lang=en" target="_blank"><img src="images/twitter_black-min.png" class="img-fluid"></a>
-
-					<a href="https://www.facebook.com/TRUcolorsbrewing/" target="_blank"><img src="images/facebook_black-min.png" class="img-fluid"></a>
-
+				<div class="col-xs-6 col-xs-pull-6">
+					<p>&copy; 2017 TRU Colors Brewing Co.</p>
 				</div>
-
 			</div>
-
 		</div>
 
 	<!-- Latest compiled and minified JavaScript -->
-    	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<script src="js/main.js"></script>
 
